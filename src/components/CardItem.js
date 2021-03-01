@@ -140,6 +140,7 @@ function CardItem(props) {
                 listStyleType: "none",
                 padding: ".5rem",
                 margin: "0.5rem",
+                fontWeight: "bold",
               }}
             >
               {props.tags

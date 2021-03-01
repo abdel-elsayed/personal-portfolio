@@ -36,6 +36,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main-btns {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
   .main-container > h1 {
     font-size: 20px;
   }

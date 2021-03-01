@@ -1,6 +1,16 @@
 .main-about {
   display: flex;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.about-text > .header-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  color: #cd6e12;
+  text-decoration: underline;
 }
 
 .activities-container {
@@ -20,22 +30,21 @@
   border-radius: 50%;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 5rem;
   width: 15%;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
 .about-text {
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 50%;
   margin-bottom: 3%;
+  margin-right: auto;
   font-size: 22px;
   color: #d9d9d9;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 400;
-  letter-spacing: 5px;
+  text-align: left;
+  line-height: 30px;
+  letter-spacing: 4px;
   font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Gill Sans MT",
     "Trebuchet MS" !important;
 }
@@ -66,28 +75,33 @@
 }
 #mobile {
   display: none;
-  line-height: 30px;
 }
 @media screen and (max-width: 768px) {
+  .main-about {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+  }
   .image {
     width: 35%;
+    margin: auto;
   }
   .image1 {
     width: 50%;
   }
   .about-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     font-size: large;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 1rem;
   }
   .activities-container {
     width: 95%;
   }
   #desktop {
     display: none;
-  }
-  #mobile {
-    display: block;
   }
 }
 
@@ -98,7 +112,7 @@
 
   .about-text {
     font-size: larger;
-    margin-left: 8%;
+
     margin-right: 8%;
   }
   .activities-container {

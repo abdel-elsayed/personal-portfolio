@@ -16,25 +16,36 @@ const About = () => {
           src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614404429/headshot2_atbms6.png"
           className="image"
         />
+        <p className="about-text">
+          <br />{" "}
+          <p className="header-text">
+            Aspiring Software Engineer{" "}
+            {/* <hr
+              style={{
+                display: "inline",
+                fontSize: "18px",
+                backgroundImage: "#CD6E12",
+              }}
+            ></hr> */}
+          </p>{" "}
+          <p style={{ margin: "1rem 0", fontSize: "30px" }}>
+            <strong>
+              Based in NYC,
+              <br /> I'm a student and developer.
+            </strong>
+          </p>
+          Constantly learning and exploring new skills. Passionate about
+          science, creativity, and new technologies and what problems can they
+          solve plus how can I use them to build better and scalable products.{" "}
+          <br />
+          <br />
+          {/* Eager to secure roles/opportunities that demand use of the skills and
+          experience gained during my studies.
+          <br />I love to connect with new people and build new relationships,
+          so feel free to contact me and send me a message on LinkedIn. */}
+        </p>
       </div>
 
-      <p id="desktop" className="about-text">
-        <br /> Computer science student at City University of New York, College
-        of Staten Island. Passionate about technology, science, and creativity.
-        Skilled in C++, Java, PHP, and Web Development. Continuously learning
-        and exploring new technologies and skills. Eager to secure
-        roles/opportunities that demand use of the skills and experience gained
-        during my studies. Passionate about new technologies, what problems are
-        they solving and How can I use them to build better and scalable
-        products. I love to connect with new people and build new relationships,
-        so feel free to connect with me and send me a message on LinkedIn.
-      </p>
-      <p id="mobile" className="about-text">
-        <br /> Computer science student at City University of New York, College
-        of Staten Island. Passionate about technology, science, and creativity.
-        Skilled in C++, Java, PHP, and Web Development. Continuously learning
-        and exploring new technologies and skills.
-      </p>
       <br />
       <br />
       <div className="downArrow bounce">

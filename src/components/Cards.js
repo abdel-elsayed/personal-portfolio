@@ -13,7 +13,7 @@ function Cards() {
         style={{ marginTop: "2rem" }}
         src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1612544177/A_E_bryr1f.gif"
       />
-      <h1 style={{ marginTop: "6rem", marginBottom: "4rem", color: "white" }}>
+      <h1 style={{ marginTop: "6rem", marginBottom: "4rem", color: "#d9d9d9" }}>
         Check out my projects
       </h1>
       <div className="downArrow bounce">

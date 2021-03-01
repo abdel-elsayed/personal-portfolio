@@ -16,5 +16,9 @@
 
 .link-button:hover {
   color: #323c44;
-  background: #9e5a63;
+  background: #cd6e12;
+}
+
+.tags {
+  font-weight: bolder;
 }
