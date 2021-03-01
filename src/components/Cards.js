@@ -53,6 +53,26 @@ function Cards() {
               pathSand=""
               tags={["web-development", "Serverless-CMS"]}
             />
+          </ul>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
+            <CardItem
+              src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614629989/Screen_Shot_2021-03-01_at_3.19.06_PM_fxyhoc.png"
+              text="Full-Stack clone of Amazon using fire-base and React.js"
+              label="Amazon clone"
+              tech1=""
+              tech2=""
+              tech3=""
+              tech4="https://img.icons8.com/color/48/000000/firebase.png"
+              tech5="https://img.icons8.com/nolan/64/stripe.png"
+              tech6="https://img.icons8.com/plasticine/100/000000/react.png"
+              pathSource="https://github.com/abdel-elsayed/amazon-clone"
+              pathLink="https://challenge-e57b8.firebaseapp.com/"
+              pathSand=""
+              tags={["web-development", "Clone"]}
+            />{" "}
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/Lemonade-E-Commerce-Website/master/images/bagsPageDemo.png"
               text="Full-Stack PHP E-commerce website"
@@ -102,7 +122,12 @@ function Cards() {
               pathLink=""
               pathSand=""
               tags={["OOP", "GUI", "2D-Game"]}
-            />
+            />{" "}
+          </ul>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
             <CardItem
               src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
               text="Implementation of data structures and Algorithms in C++"
@@ -118,11 +143,6 @@ function Cards() {
               pathSand=""
               tags={["Data-structures", "Algorithms", "Console"]}
             />
-          </ul>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="bounceInRight">
-          <ul className="cards__items">
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
               text="C++ simulation of cars arrivals/departures in 2-lanes parking garage."
@@ -138,6 +158,10 @@ function Cards() {
               pathSand=""
               tags={["Data-structures", "Stacks", "Console"]}
             />
+          </ul>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/React-Redux-Bank/master/HOME.png"
               text="Web Application using React/redux"
@@ -170,7 +194,6 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem

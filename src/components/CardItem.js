@@ -63,7 +63,7 @@ function CardItem(props) {
             <ul
               style={{
                 display: "flex",
-                textAlign: "center",
+                justifyContent: "center",
                 listStyleType: "none",
                 padding: ".1rem",
                 marginTop: "0.2rem",
