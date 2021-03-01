@@ -46,6 +46,8 @@ h2 {
   margin: 0 1rem;
   border-radius: 10px;
   border: 2px solid #644e5b;
+  width: 22em;
+  height: 36em;
 }
 
 .cards__item__link {
@@ -111,8 +113,9 @@ h2 {
 
 .cards__item__text {
   color: #e3e4e9;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
+  text-align: left;
 }
 
 .downArrow {
@@ -244,9 +247,6 @@ h2 {
   }
   s .content__blog__container {
     width: 84%;
-  }
-  .cards__item {
-    width: 20em;
   }
 }
 

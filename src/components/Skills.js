@@ -1,6 +1,7 @@
 import React from "react";
 import "../styling/Skills.css";
-import { motion } from "framer-motion";
+
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Skills(props) {
   const [lastYPos] = React.useState(0);
@@ -22,7 +23,9 @@ function Skills(props) {
     };
   }, [lastYPos]);
   return (
-    <motion.div
+    <ScrollAnimation
+      animateIn="bounceInLeft"
+      animateOut="bounceOutRight"
       className="skills__wrapper"
       initial={{ opacity: 0 }}
       animate={{ opacity: shouldShowActions ? 1 : 0 }}
@@ -204,7 +207,7 @@ function Skills(props) {
           </ul>
         </div>
       </ul>
-    </motion.div>
+    </ScrollAnimation>
   );
 }
 

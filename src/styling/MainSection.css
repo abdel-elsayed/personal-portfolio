@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
   /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain; */
 }
@@ -24,6 +26,7 @@
 
 .main-btns {
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 960px) {

@@ -29,7 +29,7 @@ function CardItem(props) {
             </a>
           </figure>
           <div className="cards__item__info">
-            <h5 className="cards__item__text">{props.text}</h5>
+            <p className="cards__item__text">{props.text}</p>
             <a
               className="link-button"
               rel="noreferrer"
@@ -59,9 +59,10 @@ function CardItem(props) {
               </a>
             ) : null}
 
-            <hr style={{ marginTop: "0.4rem" }}></hr>
+            <hr style={{ marginTop: "1rem" }}></hr>
             <ul
               style={{
+                display: "flex",
                 textAlign: "center",
                 listStyleType: "none",
                 padding: ".1rem",
@@ -99,6 +100,7 @@ function CardItem(props) {
                 <img
                   alt="tech"
                   style={{
+                    objectFit: "contain",
                     fontSize: "30px",
                     float: "left",
                     paddingLeft: "1rem",
@@ -110,6 +112,7 @@ function CardItem(props) {
                 <img
                   alt="tech"
                   style={{
+                    objectFit: "contain",
                     fontSize: "30px",
                     float: "left",
                     paddingLeft: "1rem",
@@ -120,6 +123,7 @@ function CardItem(props) {
               {props.tech6 !== "" ? (
                 <li
                   style={{
+                    objectFit: "contain",
                     fontSize: "30px",
                     float: "left",
                     paddingLeft: "1rem",
@@ -128,6 +132,21 @@ function CardItem(props) {
                   <img width="50" alt="tech" src={props.tech6} />
                 </li>
               ) : null}
+            </ul>
+            <hr style={{ marginTop: "0.4rem" }}></hr>
+            <ul
+              style={{
+                textAlign: "left",
+                listStyleType: "none",
+                padding: ".5rem",
+                margin: "0.5rem",
+              }}
+            >
+              {props.tags
+                ? Array(props.tags.length)
+                    .fill()
+                    .map((_, i) => <p>#{props.tags[i]}</p>)
+                : null}
             </ul>
           </div>
         </div>

@@ -21,7 +21,7 @@ function Cards() {
       </div>
 
       <div className="cards__wrapper">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
               vidSrc="https://www.youtube.com/embed/RYkkgoIA2D4"
@@ -36,22 +36,8 @@ function Cards() {
               pathSource="https://github.com/abdel-elsayed/Cap-Stone-TTP-frontend"
               pathLink="https://enviromania.netlify.app/"
               pathSand=""
+              tags={["web-development", "Full-stack"]}
             />
-            <CardItem
-              vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
-              text="Object-Oriented-Programming Java/JavaFX game "
-              label="Maze-Runner"
-              tech1="fab fa-java"
-              tech2=""
-              tech3=""
-              tech4=""
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/Maze-Runner"
-              pathLink=""
-              pathSand=""
-            />
-
             <CardItem
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614493223/Screen_Shot_2021-02-28_at_1.19.26_AM_qpasf2.png"
               text="Full-stack recipe website using React.js, Redux, Node.js and Easybase"
@@ -65,25 +51,7 @@ function Cards() {
               pathSource="https://github.com/abdel-elsayed/amiras-kitchen"
               pathLink="https://amira-elsayed-kitchen.netlify.app/Home"
               pathSand=""
-            />
-          </ul>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn">
-          <ul className="cards__items">
-            <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/FileCompression/main/Output/Capture1.PNG"
-              text="C++ File Compression program using Huffman-code"
-              label="File Compression"
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/FileCompression"
-              pathLink=""
-              pathSand=""
+              tags={["web-development", "Serverless-CMS"]}
             />
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/Lemonade-E-Commerce-Website/master/images/bagsPageDemo.png"
@@ -98,40 +66,42 @@ function Cards() {
               pathSource="https://github.com/abdel-elsayed/Lemonade-E-Commerce-Website"
               pathLink=""
               pathSand=""
+              tags={["web-development", "PHP"]}
             />
+          </ul>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
             <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
-              text="Console Application, C++ data-structure stack simulation of
-                cars arrivals/departures in 2-lanes parking garage."
-              label="Garage Cars"
+              src="https://raw.githubusercontent.com/abdel-elsayed/FileCompression/main/Output/Capture1.PNG"
+              text="C++ File Compression program using Huffman-code"
+              label="File Compression"
               tech1=""
               tech2=""
               tech3=""
               tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
               tech5=""
               tech6=""
-              pathSource="https://github.com/abdel-elsayed/GarageCars"
+              pathSource="https://github.com/abdel-elsayed/FileCompression"
               pathLink=""
               pathSand=""
-            />
-          </ul>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn">
-          <ul className="cards__items">
+              tags={["Algorithms", "Console", "Huffman-code"]}
+            />{" "}
             <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/React-Redux-Bank/master/HOME.png"
-              text="Web Application using React/redux"
-              label="Bank of React/Redux"
-              tech1="fab fa-js-square"
-              tech2="fab fa-react"
-              tech3="fab fa-node"
-              tech4="https://img.icons8.com/ios-filled/50/000000/redux.png"
+              vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
+              text="Object-Oriented-Programming Java/JavaFX game "
+              label="Maze-Runner"
+              tech1="fab fa-java"
+              tech2=""
+              tech3=""
+              tech4=""
               tech5=""
               tech6=""
-              pathSource="https://github.com/abdel-elsayed/React-Redux-Bank"
-              pathLink="https://abdels-bank-of-react-redux.netlify.app/"
-              pathSand="https://codesandbox.io/s/objective-dream-dzj9k"
+              pathSource="https://github.com/abdel-elsayed/Maze-Runner"
+              pathLink=""
+              pathSand=""
+              tags={["OOP", "GUI", "2D-Game"]}
             />
             <CardItem
               src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
@@ -146,27 +116,43 @@ function Cards() {
               pathSource="https://github.com/abdel-elsayed/Data-Structures"
               pathLink=""
               pathSand=""
-            />
-
-            <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/React-Giphy-App/master/Screen%20Shot%202021-01-14%20at%209.39.33%20PM.png"
-              text="Group project Web application using ReactJS"
-              label="Giphy App"
-              tech1="fab fa-js-square"
-              tech2="fab fa-react"
-              tech3=""
-              tech4=""
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/React-Giphy-App"
-              pathLink=""
-              pathSand="https://codesandbox.io/s/wonderful-cookies-2woz0?file=/src/components/App.js"
+              tags={["Data-structures", "Algorithms", "Console"]}
             />
           </ul>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
+            <CardItem
+              src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
+              text="C++ simulation of cars arrivals/departures in 2-lanes parking garage."
+              label="Garage Cars"
+              tech1=""
+              tech2=""
+              tech3=""
+              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/GarageCars"
+              pathLink=""
+              pathSand=""
+              tags={["Data-structures", "Stacks", "Console"]}
+            />
+            <CardItem
+              src="https://raw.githubusercontent.com/abdel-elsayed/React-Redux-Bank/master/HOME.png"
+              text="Web Application using React/redux"
+              label="Bank of React/Redux"
+              tech1="fab fa-js-square"
+              tech2="fab fa-react"
+              tech3="fab fa-node"
+              tech4="https://img.icons8.com/ios-filled/50/000000/redux.png"
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/React-Redux-Bank"
+              pathLink="https://abdels-bank-of-react-redux.netlify.app/"
+              pathSand="https://codesandbox.io/s/objective-dream-dzj9k"
+              tags={["web-development", "react/redux"]}
+            />
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/React-Pomodoro-Clock/master/pomodoro-clock.png"
               text="ReactJS web Application for Talent Tech Pipeline residency"
@@ -180,7 +166,28 @@ function Cards() {
               pathSource="https://github.com/abdel-elsayed/React-Pomodoro-Clock"
               pathLink="https://abdels-react-pomodoro-timer.netlify.app"
               pathSand=""
+              tags={["web-development", "react"]}
             />
+          </ul>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
+            <CardItem
+              src="https://raw.githubusercontent.com/abdel-elsayed/React-Giphy-App/master/Screen%20Shot%202021-01-14%20at%209.39.33%20PM.png"
+              text="Group project Web application using ReactJS"
+              label="Giphy App"
+              tech1="fab fa-js-square"
+              tech2="fab fa-react"
+              tech3=""
+              tech4=""
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/React-Giphy-App"
+              pathLink=""
+              pathSand="https://codesandbox.io/s/wonderful-cookies-2woz0?file=/src/components/App.js"
+              tags={["web-development", "react", "API"]}
+            />{" "}
           </ul>
         </ScrollAnimation>
       </div>

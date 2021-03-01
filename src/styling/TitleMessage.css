@@ -1,9 +1,7 @@
 .titleMessage {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 22rem;
-  z-index: 1;
-  margin-top: -125px;
+
   text-align: center;
 }
 

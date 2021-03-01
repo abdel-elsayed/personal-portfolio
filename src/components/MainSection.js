@@ -7,8 +7,7 @@ import TitleMessage from "./TitleMessage";
 class MainSection extends Component {
   render() {
     return (
-      <div style={{ marginBottom: "5rem" }}>
-        <TitleMessage />
+      <div>
         <div className="main-container">
           <div className="main-btns">
             <a
@@ -36,6 +35,7 @@ class MainSection extends Component {
               Resume <i class="fas fa-id-badge"></i>
             </a>
           </div>
+          <TitleMessage />
         </div>
         <div style={{ textAlign: "center", marginBottom: "7rem" }}>
           <p className="about-text1">

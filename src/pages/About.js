@@ -79,7 +79,7 @@ const About = () => {
       </ScrollAnimation>
 
       <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
-        <h2 style={{ marginTop: "7rem" }}>Activities</h2>
+        <h2 style={{ color: "#d9d9d9", marginTop: "7rem" }}>Activities</h2>
         <div className="activities-container">
           <ul className="experience-item">
             <li
