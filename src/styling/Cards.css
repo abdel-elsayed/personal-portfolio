@@ -46,7 +46,7 @@ h2 {
   flex: 1;
   margin: 2rem;
   border-radius: 10px;
-  border: 2px solid #644e5b;
+  border: 2px solid #cd6e12;
   width: 23em;
   height: 37em;
 }
@@ -120,7 +120,7 @@ h2 {
 }
 
 .downArrow {
-  position: relative;
+  display: block;
   text-align: center;
   bottom: 45%;
   color: #cd6e12;
@@ -130,6 +130,7 @@ h2 {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
+
 @-moz-keyframes bounce {
   0%,
   20%,
@@ -203,7 +204,7 @@ h2 {
 }
 
 .more-projects:hover {
-  background-color: #9e5a63;
+  background-color: #cd6e12;
   color: white;
 }
 

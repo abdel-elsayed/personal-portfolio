@@ -14,7 +14,7 @@ class App extends Component {
         <NavBar />
         <Route
           render={({ location }) => (
-            <TransitionGroup>
+            <TransitionGroup className="RTG">
               <CSSTransition key={location.key} timeout={500} classNames="fade">
                 <Switch location={location}>
                   <div className="content-wrapper">

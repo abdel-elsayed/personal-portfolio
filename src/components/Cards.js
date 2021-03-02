@@ -16,10 +16,11 @@ function Cards() {
       <h1 style={{ marginTop: "6rem", marginBottom: "4rem", color: "#d9d9d9" }}>
         Check out my projects
       </h1>
-      <div className="downArrow bounce">
+      <a href="#project" className="downArrow bounce">
         <i className="fas fa-arrow-circle-down fa-5x"></i>
-      </div>
+      </a>
 
+      <div id="project"></div>
       <div className="cards__wrapper">
         <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">

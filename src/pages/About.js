@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styling/About.css";
 import "../styling/Cards.css";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import ScrollAnimation from "react-animate-on-scroll";
 
-const About = () => {
+function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div
       style={{ background: "linear-gradient(90deg, #141E30 0%, #243B55 100%)" }}
@@ -28,7 +31,9 @@ const About = () => {
               }}
             ></hr> */}
           </p>{" "}
-          <p style={{ margin: "1rem 0", fontSize: "30px" }}>
+          <p
+            style={{ margin: "1rem 0", fontSize: "30px", lineHeight: "2.4rem" }}
+          >
             <strong>
               Based in NYC,
               <br /> I'm a student and developer.
@@ -48,11 +53,14 @@ const About = () => {
 
       <br />
       <br />
-      <div className="downArrow bounce">
+
+      <a href="#Experience" className=" downArrow bounce">
         <i className="fas fa-arrow-circle-down fa-5x"></i>
-      </div>
+      </a>
+
       {/* <img alt="gif" className="image1" src={video1} /> */}
 
+      <div id="Experience"></div>
       <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
         <h2 style={{ marginTop: "7rem" }}>Experience</h2>
         <div className="experience-container">
@@ -135,6 +143,6 @@ const About = () => {
       </ScrollAnimation>
     </div>
   );
-};
+}
 
 export default About;

@@ -41,8 +41,8 @@ class MainSection extends Component {
           <p className="about-text1">
             {/* <i class="far fa-laugh-beam"></i>. */}
             Computer science student at City University of New York, College of
-            Staten Island. Highly motivated, Passionate, and Enthusiastic about
-            Technology, developing and creativity.
+            Staten Island. Highly motivated, passionate, and enthusiastic about
+            technology, developing and creativity.
           </p>
           <Link to="/about" className="learn-more-button ">
             learn more <i className="fas fa-rocket"></i>
