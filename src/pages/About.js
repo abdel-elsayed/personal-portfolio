@@ -51,7 +51,7 @@ function About() {
           to="Experience"
           spy={true}
           delay={false}
-          className=" downArrow bounce"
+          className="downArrow bounce"
         >
           <i class="fas fa-mouse fa-3x"></i>
           <p style={{ marginTop: "1rem" }}>scroll down</p>

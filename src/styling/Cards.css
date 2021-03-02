@@ -127,6 +127,7 @@ h2 {
   color: #cd6e12;
   align-self: center;
   margin-top: 5rem;
+  width: auto;
 }
 .downArrow:hover {
   color: #9b5f23;
