@@ -14,13 +14,7 @@ function About() {
     <div
       style={{ background: "linear-gradient(90deg, #141E30 0%, #243B55 100%)" }}
     >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          height: "90vh",
-        }}
-      >
+      <div className="upper-view">
         <div className="main-about">
           <img
             alt="avatar"
@@ -28,17 +22,8 @@ function About() {
             className="image"
           />
           <p className="about-text">
-            <br />{" "}
-            <p className="header-text">
-              Aspiring Software Engineer{" "}
-              {/* <hr
-              style={{
-                display: "inline",
-                fontSize: "18px",
-                backgroundImage: "#CD6E12",
-              }}
-            ></hr> */}
-            </p>{" "}
+            <br />
+            <p className="header-text">Aspiring Software Engineer</p>
             <p
               style={{
                 margin: "1rem 0",
@@ -62,17 +47,13 @@ function About() {
           so feel free to contact me and send me a message on LinkedIn. */}
           </p>
         </div>
-        <br />
-        <br />
-
         <Link
           to="Experience"
           spy={true}
           delay={false}
           className=" downArrow bounce"
         >
-          {/* <i className="fas fa-arrow-circle-down fa-5x"></i> */}
-          <i class="fas fa-mouse fa-5x"></i>
+          <i class="fas fa-mouse fa-3x"></i>
           <p style={{ marginTop: "1rem" }}>scroll down</p>
         </Link>
       </div>
