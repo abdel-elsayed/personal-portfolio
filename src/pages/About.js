@@ -14,55 +14,69 @@ function About() {
     <div
       style={{ background: "linear-gradient(90deg, #141E30 0%, #243B55 100%)" }}
     >
-      <div className="main-about">
-        <img
-          alt="avatar"
-          src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614404429/headshot2_atbms6.png"
-          className="image"
-        />
-        <p className="about-text">
-          <br />{" "}
-          <p className="header-text">
-            Aspiring Software Engineer{" "}
-            {/* <hr
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "90vh",
+        }}
+      >
+        <div className="main-about">
+          <img
+            alt="avatar"
+            src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614404429/headshot2_atbms6.png"
+            className="image"
+          />
+          <p className="about-text">
+            <br />{" "}
+            <p className="header-text">
+              Aspiring Software Engineer{" "}
+              {/* <hr
               style={{
                 display: "inline",
                 fontSize: "18px",
                 backgroundImage: "#CD6E12",
               }}
             ></hr> */}
-          </p>{" "}
-          <p
-            style={{ margin: "1rem 0", fontSize: "30px", lineHeight: "2.4rem" }}
-          >
-            <strong>
-              Based in NYC,
-              <br /> I'm a student and developer.
-            </strong>
-          </p>
-          Constantly learning and exploring new skills. Passionate about
-          science, creativity, and new technologies and what problems can they
-          solve plus how can I use them to build better and scalable products.{" "}
-          <br />
-          <br />
-          {/* Eager to secure roles/opportunities that demand use of the skills and
+            </p>{" "}
+            <p
+              style={{
+                margin: "1rem 0",
+                fontSize: "30px",
+                lineHeight: "2.4rem",
+              }}
+            >
+              <strong>
+                Based in NYC,
+                <br /> I'm a student and developer.
+              </strong>
+            </p>
+            Constantly learning and exploring new skills. Passionate about
+            science, creativity, and new technologies and what problems can they
+            solve plus how can I use them to build better and scalable products.{" "}
+            <br />
+            <br />
+            {/* Eager to secure roles/opportunities that demand use of the skills and
           experience gained during my studies.
           <br />I love to connect with new people and build new relationships,
           so feel free to contact me and send me a message on LinkedIn. */}
-        </p>
+          </p>
+        </div>
+        <br />
+        <br />
+
+        <Link
+          to="Experience"
+          spy={true}
+          delay={false}
+          className=" downArrow bounce"
+        >
+          {/* <i className="fas fa-arrow-circle-down fa-5x"></i> */}
+          <i class="fas fa-mouse fa-5x"></i>
+          <p style={{ marginTop: "1rem" }}>scroll down</p>
+        </Link>
       </div>
 
-      <br />
-      <br />
-
-      <Link
-        to="Experience"
-        spy={true}
-        delay={false}
-        className=" downArrow bounce"
-      >
-        <i className="fas fa-arrow-circle-down fa-5x"></i>
-      </Link>
       {/* <a href="#Experience" className=" downArrow bounce">
         <i className="fas fa-arrow-circle-down fa-5x"></i>
       </a> */}
