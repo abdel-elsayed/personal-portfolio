@@ -4,6 +4,7 @@ import "../styling/Cards.css";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Link } from "react-scroll";
 
 function About() {
   useEffect(() => {
@@ -54,9 +55,17 @@ function About() {
       <br />
       <br />
 
-      <a href="#Experience" className=" downArrow bounce">
+      <Link
+        to="Experience"
+        spy={true}
+        delay={false}
+        className=" downArrow bounce"
+      >
         <i className="fas fa-arrow-circle-down fa-5x"></i>
-      </a>
+      </Link>
+      {/* <a href="#Experience" className=" downArrow bounce">
+        <i className="fas fa-arrow-circle-down fa-5x"></i>
+      </a> */}
 
       {/* <img alt="gif" className="image1" src={video1} /> */}
 

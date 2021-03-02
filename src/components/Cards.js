@@ -3,6 +3,7 @@ import "../styling/Cards.css";
 import CardItem from "./CardItem";
 import ScrollAnimation from "react-animate-on-scroll";
 import graphqlLogo from "../assets/graphql.png";
+import { Link } from "react-scroll";
 
 function Cards() {
   return (
@@ -16,9 +17,10 @@ function Cards() {
       <h1 style={{ marginTop: "6rem", marginBottom: "4rem", color: "#d9d9d9" }}>
         Check out my projects
       </h1>
-      <a href="#project" className="downArrow bounce">
+
+      <Link to="project" spy={true} className=" downArrow bounce">
         <i className="fas fa-arrow-circle-down fa-5x"></i>
-      </a>
+      </Link>
 
       <div id="project"></div>
       <div className="cards__wrapper">
