@@ -122,10 +122,12 @@ h2 {
 .downArrow {
   display: flex;
   flex-direction: column;
-
   text-align: center;
   bottom: 45%;
   color: #cd6e12;
+}
+.downArrow:hover {
+  color: #9b5f23;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;

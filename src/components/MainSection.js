@@ -32,7 +32,7 @@ class MainSection extends Component {
               className="button-outline resume"
               target="_blank"
             >
-              Latest Resume <i class="fas fa-id-badge"></i>
+              Resume <i class="fas fa-id-badge"></i>
             </a>
           </div>
           <TitleMessage />
