@@ -28,11 +28,11 @@ class MainSection extends Component {
             </a>
             <a
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1L2d7CmJdDO4xmXtL_o7-EG6bm9cWLaR0/view"
+              href="https://drive.google.com/file/d/1A6YvFwHVjHMVO8Jmz0riSVWmYl-SORfj/view?usp=sharing"
               className="button-outline resume"
               target="_blank"
             >
-              Resume <i class="fas fa-id-badge"></i>
+              Latest Resume <i class="fas fa-id-badge"></i>
             </a>
           </div>
           <TitleMessage />

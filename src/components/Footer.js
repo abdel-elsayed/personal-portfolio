@@ -44,7 +44,7 @@ function Footer() {
         <a
           rel="noreferrer"
           class="social-icon-link"
-          href="https://drive.google.com/file/d/1L2d7CmJdDO4xmXtL_o7-EG6bm9cWLaR0/view"
+          href="https://drive.google.com/file/d/1A6YvFwHVjHMVO8Jmz0riSVWmYl-SORfj/view?usp=sharing"
           target="_blank"
           aria-label="GitHub"
         >
