@@ -50,6 +50,7 @@ function Cards() {
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614493223/Screen_Shot_2021-02-28_at_1.19.26_AM_qpasf2.png"
               text="Full-stack recipe website using React.js, Redux, Node.js and Easybase"
               label="Amira's kitchen"
+              inProgress={true}
               tech1="fab fa-node"
               tech2="fab fa-react"
               tech3=""
@@ -70,6 +71,7 @@ function Cards() {
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614629989/Screen_Shot_2021-03-01_at_3.19.06_PM_fxyhoc.png"
               text="Full-Stack clone of Amazon using fire-base and React.js"
               label="Amazon clone"
+              inProgress={true}
               tech1=""
               tech2=""
               tech3=""
