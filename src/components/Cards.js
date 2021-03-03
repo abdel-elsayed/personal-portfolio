@@ -13,7 +13,7 @@ function Cards() {
           alt="gif"
           className="image1"
           style={{ marginTop: "2rem" }}
-          src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1612544177/A_E_bryr1f.gif"
+          src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614814131/Untitled_design_1_no1pba.gif"
         />
 
         <h1
