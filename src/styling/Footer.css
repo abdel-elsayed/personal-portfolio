@@ -26,3 +26,8 @@
 .website-rights {
   color: #fff;
 }
+
+.social-icon-link:hover {
+  color: #cd6e12;
+  font-size: 24px;
+}
