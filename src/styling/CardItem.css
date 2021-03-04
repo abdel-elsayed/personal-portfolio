@@ -21,8 +21,8 @@
 .tags {
   font-weight: bolder;
 }
+/* 
 
-/* common */
 .ribbon {
   width: 150px;
   height: 150px;
@@ -79,4 +79,4 @@
   color: #f0f0f0;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-}
+} */

@@ -61,11 +61,11 @@ function CardItem(props) {
 
             <hr style={{ marginTop: "1rem" }}></hr>
 
-            {props.inProgress ? (
+            {/* {props.inProgress ? (
               <div class="corner-ribbon top-right sticky red shadow">
                 In progress
               </div>
-            ) : null}
+            ) : null} */}
 
             <ul
               style={{
