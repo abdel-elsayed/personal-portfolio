@@ -25,7 +25,7 @@ function Navbar() {
               <NavLink
                 to="/Home"
                 activeClassName="navbar__link--active"
-                className="nav-links"
+                className="nav-links option"
                 onClick={closeMobileMenu}
               >
                 Home
@@ -35,7 +35,7 @@ function Navbar() {
               <NavLink
                 to="/About"
                 activeClassName="navbar__link--active"
-                className="nav-links"
+                className="nav-links option"
                 onClick={closeMobileMenu}
               >
                 About me
