@@ -4,7 +4,7 @@ import "../styling/TitleMessage.css";
 
 const TitleMessage = () => (
   <div className="titleMessage">
-    <div className="main text-center mb-3">
+    <div className="main text-center">
       Hi There, I am
       <br />
       <span>

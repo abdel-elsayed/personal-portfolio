@@ -44,9 +44,9 @@ function Footer() {
         <a
           rel="noreferrer"
           class="social-icon-link"
-          href="https://drive.google.com/file/d/1A6YvFwHVjHMVO8Jmz0riSVWmYl-SORfj/view?usp=sharing"
+          href="https://drive.google.com/file/d/16Mpgq_HaPl9x3s_f3Ngk2Ju9rsnQIo66/view?usp=sharing"
           target="_blank"
-          aria-label="GitHub"
+          aria-label="resume"
         >
           <i class="fas fa-id-badge"></i>
         </a>
