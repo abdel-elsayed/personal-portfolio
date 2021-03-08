@@ -127,6 +127,12 @@ function Skills(props) {
                 src="https://www.resourcifi.com/wp-content/themes/resourcifi-child/img/express-min.png"
               />
             </li>
+            <li className="skill">
+              <img
+                alt="express"
+                src="https://img.icons8.com/color/48/000000/firebase.png"
+              />
+            </li>
           </ul>
         </div>
       </ul>
@@ -145,6 +151,12 @@ function Skills(props) {
               <img
                 alt="heroku"
                 src="https://img.icons8.com/nolan/64/heroku.png"
+              />
+            </li>
+            <li className="skill">
+              <img
+                alt="firebase"
+                src="https://img.icons8.com/color/48/000000/firebase.png"
               />
             </li>
             <li className="skill">
@@ -191,6 +203,12 @@ function Skills(props) {
               marginTop: "0.2rem",
             }}
           >
+            <li className="skill">
+              <img
+                alt="express"
+                src="https://img.icons8.com/color/48/000000/firebase.png"
+              />
+            </li>
             <li className="skill">
               <img
                 alt="mongoodb"
