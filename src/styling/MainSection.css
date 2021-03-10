@@ -36,6 +36,7 @@
   margin-bottom: 40px;
 }
 .resume-button {
+  letter-spacing: 3px;
   display: flex;
   flex-direction: row;
   align-items: center;

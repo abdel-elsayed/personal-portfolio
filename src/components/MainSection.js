@@ -44,7 +44,7 @@ class MainSection extends Component {
                 className="button-primary"
                 target="_blank"
               >
-                Software dev Resume <i class="fas fa-terminal"></i>
+                Software Dev Resume <i class="fas fa-terminal"></i>
               </a>
             </div>
           </div>
