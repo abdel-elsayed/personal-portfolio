@@ -104,7 +104,7 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/FileCompression/main/Output/Capture1.PNG"
+              src="https://techkhabaren.files.wordpress.com/2012/06/zip.jpg"
               text="C++ File Compression program using Huffman-code"
               label="File Compression"
               tech1=""
