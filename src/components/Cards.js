@@ -233,7 +233,15 @@ function Cards() {
           style={{ marginTop: "20px", borderRadius: "10%" }}
         >
           More projects <i className="fab fa-github-alt" />
-        </a>
+        </a>{" "}
+        <button
+          className="bounce button-up"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          <i class="fas fa-sort-up fa-5x"></i>
+        </button>
       </div>
     </div>
   );
