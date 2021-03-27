@@ -7,12 +7,15 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Link } from "react-scroll";
 
 function About() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
   return (
     <div
-      style={{ background: "linear-gradient(90deg, #141E30 0%, #243B55 100%)" }}
+      style={{
+        padding: "4rem 0",
+        background: "linear-gradient(90deg, #141E30 0%, #243B55 100%)",
+      }}
     >
       <div className="upper-view">
         <div className="main-about">
@@ -140,11 +143,21 @@ function About() {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="bounceInUp" animateOut="bounceOutdown">
-        <div className="cards__container skills">
-          <Skills />
-        </div>
-      </ScrollAnimation>
+      <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+        <ScrollAnimation animateIn="bounceInUp" animateOut="bounceOutdown">
+          <div className="cards__container skills">
+            <Skills />
+          </div>
+        </ScrollAnimation>
+        <button
+          className="bounce button-up"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          <i class="fas fa-sort-up fa-5x"></i>
+        </button>
+      </div>
     </div>
   );
 }
