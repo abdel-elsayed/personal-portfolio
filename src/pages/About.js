@@ -7,9 +7,9 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Link } from "react-scroll";
 
 function About() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div
       style={{
