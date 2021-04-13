@@ -131,12 +131,17 @@ function About() {
               using Python.{" "}
             </li>
             <li>- Introduced Glitch and basic python synatx.</li>
+            <li>
+              - Introduced data cleaning techniques using regular expressions to
+              improve a data set retrieved from scrapping Twitter.
+            </li>
             <li>- Sponsored by Major League hacking, CUNY2X, and TTP.</li>
 
             <li style={{ marginTop: "1rem", textAlign: "center" }}>
               March 2021
             </li>
           </ul>
+          <hr />
           <ul className="experience-item">
             <li
               style={{
