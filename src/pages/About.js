@@ -115,6 +115,36 @@ function About() {
                 textDecoration: "underline",
               }}
             >
+              <strong>Intro-to-python Series</strong>
+            </li>
+            <p
+              style={{
+                marginTop: "0.2rem",
+                textAlign: "center",
+                textDecoration: "underline",
+              }}
+            >
+              Introduction to Python and Artificial Intelligence.
+            </p>
+            <li>
+              - Co-hosted a beginner friendly workshop introducing web scrapping
+              using Python.{" "}
+            </li>
+            <li>- Introduced Glitch and basic python synatx.</li>
+            <li>- Sponsored by Major League hacking, CUNY2X, and TTP.</li>
+
+            <li style={{ marginTop: "1rem", textAlign: "center" }}>
+              March 2021
+            </li>
+          </ul>
+          <ul className="experience-item">
+            <li
+              style={{
+                marginBottom: "0rem",
+                textAlign: "center",
+                textDecoration: "underline",
+              }}
+            >
               <strong>Git into GitHub Workshop</strong>
             </li>
             <p
