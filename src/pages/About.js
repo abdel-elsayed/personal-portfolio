@@ -82,7 +82,7 @@ function About() {
        and version control with Git/GitHub"
             date="January 2021 - Present"
           />
-          <hr />
+          <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
             title="CSI-CSTEP program"
             subtitle="College Assistant/Tutor"
@@ -91,7 +91,7 @@ function About() {
             third="led and taught an introduction to programming class for high-school students on weekends in CSI. "
             date="October 2019 - August 2020"
           />
-          <hr />
+          <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
             title="Payless Shoe-source"
             subtitle="Assistant Manager, Key Holder"
@@ -141,7 +141,7 @@ function About() {
               March 2021
             </li>
           </ul>
-          <hr />
+          <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <ul className="experience-item">
             <li
               style={{
