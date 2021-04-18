@@ -120,13 +120,13 @@
 
 .button-outline:hover {
   transition: all 0.3s ease-out;
-  background: #97aabd;
+  background: #cd6e14;
   color: #ffffff;
   transition: 250ms;
 }
 
 .resume:hover {
-  background: #88a8ad;
+  background: #cd6e14;
 }
 
 .button-primary:hover {
