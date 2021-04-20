@@ -44,10 +44,6 @@ function About() {
             solve plus how can I use them to build better and scalable products.{" "}
             <br />
             <br />
-            {/* Eager to secure roles/opportunities that demand use of the skills and
-          experience gained during my studies.
-          <br />I love to connect with new people and build new relationships,
-          so feel free to contact me and send me a message on LinkedIn. */}
           </p>
         </div>
         <Link
@@ -60,12 +56,6 @@ function About() {
           <p style={{ marginTop: "1rem" }}>scroll down</p>
         </Link>
       </div>
-
-      {/* <a href="#Experience" className=" downArrow bounce">
-        <i className="fas fa-arrow-circle-down fa-5x"></i>
-      </a> */}
-
-      {/* <img alt="gif" className="image1" src={video1} /> */}
 
       <div id="Experience"></div>
       <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
