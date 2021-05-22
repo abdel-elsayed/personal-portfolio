@@ -105,7 +105,7 @@ function About() {
                 textDecoration: "underline",
               }}
             >
-              <strong>Intro-to-python Series</strong>
+              <strong>Python Workshop Series</strong>
             </li>
             <p
               style={{
