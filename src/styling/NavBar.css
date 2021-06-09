@@ -102,11 +102,11 @@
   }
   .navbar__link--active {
     background-color: #e63946;
-    color: #242424;
+    color: #1d3557;
     border-radius: 0;
   }
   .nav-menu.active {
-    background: #242222;
+    background: #1d3557;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -128,7 +128,7 @@
 
   .nav-links:hover {
     background-color: #e63946;
-    color: #242424;
+    color: #1d3557;
     border-radius: 0;
   }
 
@@ -172,7 +172,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #242424;
+    color: #1d3557;
     transition: 250ms;
   }
 }
@@ -196,7 +196,7 @@
 
 .btn--primary {
   background-color: var(--primary);
-  color: #242424;
+  color: #1d3557;
   border: 1px solid var(--primary);
 }
 
