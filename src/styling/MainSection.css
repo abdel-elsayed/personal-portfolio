@@ -1,11 +1,11 @@
 .main-container {
-  height: 50vh;
+  /* height: 50vh; */
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 5rem;
+  /* margin-top: 1rem; */
+  /* margin-bottom: 5rem; */
   /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain; */
 }
@@ -13,27 +13,27 @@
 .main-container > h1 {
   color: #fff;
   font-size: 70px;
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
-.main-container > p {
+/* .main-container > p {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-}
+} */
 
 .main-btns {
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .social-button {
   margin: 0 auto;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .resume-button {
   letter-spacing: 3px;
@@ -120,18 +120,18 @@
 
 .button-outline:hover {
   transition: all 0.3s ease-out;
-  background: #cd6e14;
+  background: #e63946;
   color: #ffffff;
   transition: 250ms;
 }
 
 .resume:hover {
-  background: #cd6e14;
+  background: #e63946;
 }
 
 .button-primary:hover {
   transition: all 0.3s ease-out;
-  background: #cd6e14;
+  background: #e63946;
   color: #ffffff;
   transition: 250ms;
 }
@@ -140,10 +140,10 @@
   font-size: 40px;
 }
 .about-text1 {
-  margin-top: 2em;
+  /* margin-top: 1rem; */
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   font-size: x-large;
   text-align: center;
   letter-spacing: 4px;
@@ -158,17 +158,11 @@
   font-size: 20px;
   text-align: center;
   text-decoration: none;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
 .learn-more-button:hover {
   background-color: rgb(248, 248, 248);
   color: rgb(5, 5, 5);
-  border: 1px solid var(--primary);
-  transition: all 0.3s ease-out;
-  padding: 8px 10px;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 5rem;
 }

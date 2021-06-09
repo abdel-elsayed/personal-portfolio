@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../styling/NavBar.css";
-//import './styling/Button.css'
-import logo from "../assets/A_Elsayed.png";
+
 import "../App.css";
 
 function Navbar() {
@@ -15,7 +14,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <div className="logo-text">A_ELSAYED</div>
-            <img style={{ width: "1.70em" }} alt="logo" src={logo}></img>
+            {/* <img style={{ width: "1.70em" }} alt="logo" src={logo}></img> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
