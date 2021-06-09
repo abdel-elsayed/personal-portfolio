@@ -124,13 +124,13 @@ h2 {
   flex-direction: column;
   text-align: center;
   bottom: 45%;
-  color: #cd6e12;
+  color: #e63946;
   align-self: center;
   margin-top: 5rem;
   width: auto;
 }
 .downArrow:hover {
-  color: #9b5f23;
+  color: #72171e;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -270,7 +270,7 @@ h2 {
   /*optional*/
   font-family: arial, sans-serif;
   /*input has OS specific font-family*/
-  color: #c4813e;
+  color: #e63946;
   text-decoration: underline;
   cursor: pointer;
   float: right;

@@ -8,6 +8,29 @@
 }
 .left-container {
   text-align: center;
+  margin-left: 2rem;
+}
+.illustration {
+  width: 14rem;
+  margin-bottom: 10px;
+}
+@keyframes spinning {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.spin {
+  animation-name: spinning;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: linear;
 }
 
 .main-container > h1 {
@@ -108,6 +131,9 @@
   .left-container {
     margin-top: 3rem;
   }
+  .illustration {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -141,8 +167,8 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .main-container {
     margin-bottom: 16rem;
   }
-}
+} */

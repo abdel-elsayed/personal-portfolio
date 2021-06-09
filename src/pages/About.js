@@ -14,14 +14,13 @@ function About() {
     <div
       style={{
         padding: "4rem 0",
-        background: "linear-gradient(90deg, #141E30 0%, #243B55 100%)",
       }}
     >
       <div className="upper-view">
         <div className="main-about">
           <img
             alt="avatar"
-            src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614404429/headshot2_atbms6.png"
+            src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1623273852/PNG_image-E5BC5357DD79-1_uqioif.png"
             className="image"
           />
           <p className="about-text">
@@ -53,17 +52,16 @@ function About() {
           className="downArrow bounce"
         >
           <i class="fas fa-mouse fa-3x"></i>
-          <p style={{ marginTop: "1rem" }}>scroll down</p>
         </Link>
       </div>
 
       <div id="Experience"></div>
       <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-        <h2 style={{ marginTop: "7rem" }}>Experience</h2>
+        <h2 style={{ marginTop: "7rem", color: "#f1faee" }}>Experience</h2>
         <div className="experience-container">
           <Experience
             title="Talent Pipeline Residency Full Stack Development Bootcamp"
-            subtitle="Software Development Student	"
+            subtitle="Software Development Student"
             first="Interviewed and selected to participate in a full stack development bootcamp in where topics on use of MongoDB,
        Express, React.js, Node,js, GraphQL were first taught and then applied to delivering a minimum viable product in an agile environment"
             second="Learned in-demand technologies such as Node.js, Express, PostgreSQL and MongoDB in order to interface with a database via API endpoints and
@@ -95,7 +93,9 @@ function About() {
       </ScrollAnimation>
 
       <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
-        <h2 style={{ color: "#d9d9d9", marginTop: "7rem" }}>Activities</h2>
+        <h2 style={{ color: "#d9d9d9", marginTop: "7rem", color: "#f1faee" }}>
+          Activities
+        </h2>
         <div className="activities-container">
           <ul className="experience-item">
             <li
@@ -112,6 +112,7 @@ function About() {
                 marginTop: "0.2rem",
                 textAlign: "center",
                 textDecoration: "underline",
+                color: "#457B9D",
               }}
             >
               Introduction to Python and Artificial Intelligence.
@@ -127,7 +128,13 @@ function About() {
             </li>
             <li>- Sponsored by Major League hacking, CUNY2X, and TTP.</li>
 
-            <li style={{ marginTop: "1rem", textAlign: "center" }}>
+            <li
+              style={{
+                marginTop: "1rem",
+                textAlign: "center",
+                color: "#be837d",
+              }}
+            >
               March 2021
             </li>
           </ul>
@@ -147,6 +154,7 @@ function About() {
                 marginTop: "0.2rem",
                 textAlign: "center",
                 textDecoration: "underline",
+                color: "#457B9D",
               }}
             >
               Beginner's introduction to Git and Github
@@ -161,7 +169,13 @@ function About() {
             </li>
             <li>- Sponsored by Major League hacking and CUNY2X</li>
 
-            <li style={{ marginTop: "1rem", textAlign: "center" }}>
+            <li
+              style={{
+                marginTop: "1rem",
+                textAlign: "center",
+                color: "#be837d",
+              }}
+            >
               February 2021
             </li>
           </ul>
