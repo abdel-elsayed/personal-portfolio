@@ -20,7 +20,7 @@ function About() {
         <div className="main-about">
           <img
             alt="avatar"
-            src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1623273852/PNG_image-E5BC5357DD79-1_uqioif.png"
+            src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1623278819/9585214F-075C-42E0-91FB-6C1C9038EDBE_hiidgp.png"
             className="image"
           />
           <p className="about-text">
