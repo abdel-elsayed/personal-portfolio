@@ -15,8 +15,9 @@
 .about-text > .header-text {
   display: flex;
   flex-direction: row;
-  font-size: 18px;
-  color: #cd6e12;
+  text-shadow: none;
+  font-size: 22px;
+  color: #e63946;
   text-decoration: underline;
 }
 
@@ -48,7 +49,7 @@
   margin-bottom: 3%;
   margin-right: auto;
   font-size: 22px;
-  color: #d9d9d9;
+  color: #f1faee;
   text-align: left;
   line-height: 30px;
   letter-spacing: 4px;

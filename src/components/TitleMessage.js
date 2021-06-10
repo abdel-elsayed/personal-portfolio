@@ -8,7 +8,7 @@ const TitleMessage = () => (
       Hi There, I am
       <br />
       <span>
-        <strong>Abdelrahman Elsayed</strong> <i class="far fa-laugh-beam"></i>
+        <strong>Abdelrahman Elsayed</strong> <i class="fas fa-rocket"></i>
       </span>
     </div>
     <div className="sub">

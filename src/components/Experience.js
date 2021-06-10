@@ -8,13 +8,23 @@ function Experience(props) {
         <li style={{ marginBottom: "0rem", textDecoration: "underline" }}>
           <strong>{props.title}</strong>
         </li>
-        <p style={{ marginTop: "0.2rem", textDecoration: "underline" }}>
+        <p
+          style={{
+            marginTop: "0.2rem",
+            textDecoration: "underline",
+            color: "#457B9D",
+          }}
+        >
           {props.subtitle}
         </p>
         <li>- {props.first} </li>
         <li>- {props.second} </li>
         <li>- {props.third} </li>
-        <li style={{ marginTop: "1rem", textAlign: "center" }}>{props.date}</li>
+        <li
+          style={{ marginTop: "1rem", textAlign: "center", color: "#be837d" }}
+        >
+          {props.date}
+        </li>
       </ul>
     </div>
   );

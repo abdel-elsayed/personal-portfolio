@@ -4,11 +4,7 @@ import MainSection from "../components/MainSection";
 import "../styling/Home.css";
 
 function Home() {
-  return (
-    <div>
-      <MainSection />
-    </div>
-  );
+  return <MainSection />;
 }
 
 export default Home;
