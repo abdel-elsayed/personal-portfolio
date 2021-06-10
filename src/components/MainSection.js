@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import illust from "../assets/mirage-644.png";
 import "../App.css";
 import "../styling/MainSection.css";
@@ -11,7 +10,11 @@ class MainSection extends Component {
       <div className="main-container">
         <TitleMessage />
         <div className="left-container">
-          <img className="illustration spin" src={illust} />
+          <img
+            alt="waving-hand-illustration"
+            className="illustration spin"
+            src={illust}
+          />
           <div className="resume-button">
             <a
               rel="noreferrer"

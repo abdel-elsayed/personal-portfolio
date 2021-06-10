@@ -4,6 +4,7 @@ import CardItem from "./CardItem";
 import ScrollAnimation from "react-animate-on-scroll";
 import graphqlLogo from "../assets/graphql.png";
 import { Link } from "react-scroll";
+import img from "../assets/3d-flame-116.png";
 
 function Cards() {
   return (
@@ -11,20 +12,20 @@ function Cards() {
       <div>
         <img
           alt="gif"
-          className="image1"
+          className="image1 travel"
           style={{ marginTop: "2rem" }}
-          src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614814131/Untitled_design_1_no1pba.gif"
+          src={img}
         />
 
         <h1
-          style={{ marginTop: "6rem", marginBottom: "4rem", color: "#d9d9d9" }}
+          style={{ marginTop: "6rem", marginBottom: "4rem", color: "#f1faee" }}
         >
-          Check out my projects
+          Check my work out
         </h1>
 
         <Link to="project" spy={true} className="downArrow bounce">
           <i className="fas fa-arrow-circle-down fa-3x"></i>
-          <p style={{ marginTop: "1rem" }}>scroll down</p>
+          {/* <p style={{ marginTop: "1rem" }}>scroll down</p> */}
         </Link>
       </div>
       <div id="project"></div>
@@ -170,7 +171,7 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight">
+        {/* <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/React-Redux-Bank/master/HOME.png"
@@ -203,8 +204,8 @@ function Cards() {
               tags={["web-development", "react"]}
             />
           </ul>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight">
+        </ScrollAnimation> */}
+        {/* <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/React-Giphy-App/master/Screen%20Shot%202021-01-14%20at%209.39.33%20PM.png"
@@ -222,7 +223,7 @@ function Cards() {
               tags={["web-development", "react", "API"]}
             />{" "}
           </ul>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
       <div style={{ textAlign: "center", marginBottom: "2rem" }}>
         <a

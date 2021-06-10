@@ -12,9 +12,27 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 7rem;
   margin-top: 4rem;
   margin-bottom: 2rem;
+}
+@keyframes travelling {
+  0% {
+    transform: translateY(500px);
+  }
+  /* 50% {
+    transform: translateY(45px);
+  } */
+  100% {
+    transform: translateY(0px);
+  }
+}
+.travel {
+  animation-name: travelling;
+  animation-duration: 1s;
+  animation-iteration-count: initial;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: linear;
 }
 
 h2 {
@@ -33,6 +51,7 @@ h2 {
   width: 100%;
   position: relative;
   margin: 50px 0 45px;
+  padding-top: 3rem;
 }
 
 .cards__items {
@@ -46,7 +65,7 @@ h2 {
   flex: 1;
   margin: 2rem;
   border-radius: 10px;
-  border: 2px solid #cd6e12;
+  /* border: 2px solid #e63946; */
   width: 23em;
   height: 37em;
 }
@@ -61,6 +80,7 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  background-color: #1b3150;
 }
 
 .cards__item__pic-wrap {
@@ -85,7 +105,7 @@ h2 {
   font-size: 15px;
   font-weight: 700;
   color: #fff;
-  background-color: #314455;
+  background-color: #e63946;
   box-sizing: border-box;
 }
 
@@ -211,7 +231,7 @@ h2 {
 }
 
 .more-projects:hover {
-  background-color: #cd6e12;
+  background-color: #e63946;
   color: white;
 }
 
@@ -223,9 +243,6 @@ h2 {
   }
 }
 @media screen and (max-width: 768px) {
-  .image1 {
-    width: 50%;
-  }
   .main-container > h1 {
     font-size: 20px;
   }

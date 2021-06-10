@@ -13,7 +13,7 @@ function About() {
   return (
     <div
       style={{
-        padding: "4rem 0",
+        padding: "0 0",
       }}
     >
       <div className="upper-view">
@@ -93,9 +93,7 @@ function About() {
       </ScrollAnimation>
 
       <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
-        <h2 style={{ color: "#d9d9d9", marginTop: "7rem", color: "#f1faee" }}>
-          Activities
-        </h2>
+        <h2 style={{ marginTop: "7rem", color: "#f1faee" }}>Activities</h2>
         <div className="activities-container">
           <ul className="experience-item">
             <li
