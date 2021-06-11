@@ -33,9 +33,63 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
+              vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
+              text="Object-Oriented-Programming Java/JavaFX game "
+              label="Maze-Runner (Desktop)"
+              tech1="fab fa-java"
+              tech2=""
+              tech3=""
+              tech4=""
+              tech5=""
+              tech6="https://static.wixstatic.com/media/2724b2_a4c660815dde4271be00cb7e9b9cae2c~mv2.png/v1/fit/w_605%2Ch_533%2Cal_c/file.png"
+              pathSource="https://github.com/abdel-elsayed/Maze-Runner"
+              pathLink=""
+              pathSand=""
+              tags={["Software Engineering", "OOP", "GUI", "2D-Game"]}
+            />{" "}
+            <CardItem
+              vidSrc="https://www.youtube.com/embed/2ymdGQBQ6Cg"
+              text="Personal Portfolio Website"
+              label="A_ELSAYED (Web)"
+              tech1="fab fa-node"
+              tech2="fab fa-react"
+              tech3=""
+              tech4=""
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/personal-portfolio"
+              pathLink="https://abdelrahman-elsayed.netlify.app/"
+              pathSand=""
+              tags={["web-development", "Personal-Website"]}
+            />
+          </ul>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
+            <CardItem
+              src="https://techkhabaren.files.wordpress.com/2012/06/zip.jpg"
+              text="C++ File Compression program using Huffman-code"
+              label="File Compression (Desktop)"
+              tech1=""
+              tech2=""
+              tech3=""
+              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/FileCompression"
+              pathLink=""
+              pathSand=""
+              tags={[
+                "Software Engineering",
+                "Algorithms",
+                "Console",
+                "Huffman-code",
+              ]}
+            />{" "}
+            <CardItem
               vidSrc="https://www.youtube.com/embed/RYkkgoIA2D4"
               text="Full-stack Social-Media Web Application using MERNG stack"
-              label="Enviromania"
+              label="Enviromania (Web)"
               tech1="fab fa-node"
               tech2="fab fa-react"
               tech3=""
@@ -47,10 +101,30 @@ function Cards() {
               pathSand=""
               tags={["web-development", "Full-stack"]}
             />
+          </ul>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="bounceInRight">
+          <ul className="cards__items">
+            <CardItem
+              src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
+              text="Implementation of data structures and Algorithms in C++"
+              label="Data structures (Desktop)"
+              tech1=""
+              tech2=""
+              tech3=""
+              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/Data-Structures"
+              pathLink=""
+              pathSand=""
+              tags={["Data-structures", "Algorithms", "Console"]}
+            />
+
             <CardItem
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614493223/Screen_Shot_2021-02-28_at_1.19.26_AM_qpasf2.png"
               text="Full-stack recipe website using React.js, Redux, Node.js and Easybase"
-              label="Amira's kitchen"
+              label="Amira's kitchen (Web)"
               inProgress={true}
               tech1="fab fa-node"
               tech2="fab fa-react"
@@ -65,29 +139,28 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
-              src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614629989/Screen_Shot_2021-03-01_at_3.19.06_PM_fxyhoc.png"
-              text="Full-Stack clone of Amazon using fire-base and React.js"
-              label="Amazon clone"
-              inProgress={true}
+              src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
+              text="C++ simulation of cars arrivals/departures in 2-lanes parking garage."
+              label="Garage Cars (Desktop)"
               tech1=""
               tech2=""
               tech3=""
-              tech4="https://img.icons8.com/color/48/000000/firebase.png"
-              tech5="https://img.icons8.com/nolan/64/stripe.png"
-              tech6="https://img.icons8.com/plasticine/100/000000/react.png"
-              pathSource="https://github.com/abdel-elsayed/amazon-clone"
-              pathLink="https://challenge-e57b8.firebaseapp.com/"
+              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+              tech5=""
+              tech6=""
+              pathSource="https://github.com/abdel-elsayed/GarageCars"
+              pathLink=""
               pathSand=""
-              tags={["web-development", "Clone"]}
-            />{" "}
+              tags={["Data-structures", "Stacks", "Console"]}
+            />
+
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/Lemonade-E-Commerce-Website/master/images/bagsPageDemo.png"
               text="Full-Stack PHP E-commerce website"
-              label="Lemonade E-commerce"
+              label="Lemonade E-commerce (Web)"
               tech1="fab fa-php"
               tech2="fab fa-html5"
               tech3="fab fa-css3-alt"
@@ -101,74 +174,24 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="bounceInRight">
           <ul className="cards__items">
             <CardItem
-              src="https://techkhabaren.files.wordpress.com/2012/06/zip.jpg"
-              text="C++ File Compression program using Huffman-code"
-              label="File Compression"
+              src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614629989/Screen_Shot_2021-03-01_at_3.19.06_PM_fxyhoc.png"
+              text="Full-Stack clone of Amazon using fire-base and React.js"
+              label="Amazon clone (Web)"
+              inProgress={true}
               tech1=""
               tech2=""
               tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/FileCompression"
-              pathLink=""
+              tech4="https://img.icons8.com/color/48/000000/firebase.png"
+              tech5="https://img.icons8.com/nolan/64/stripe.png"
+              tech6="https://img.icons8.com/plasticine/100/000000/react.png"
+              pathSource="https://github.com/abdel-elsayed/amazon-clone"
+              pathLink="https://challenge-e57b8.firebaseapp.com/"
               pathSand=""
-              tags={["Algorithms", "Console", "Huffman-code"]}
+              tags={["web-development", "Clone"]}
             />{" "}
-            <CardItem
-              vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
-              text="Object-Oriented-Programming Java/JavaFX game "
-              label="Maze-Runner"
-              tech1="fab fa-java"
-              tech2=""
-              tech3=""
-              tech4=""
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/Maze-Runner"
-              pathLink=""
-              pathSand=""
-              tags={["OOP", "GUI", "2D-Game"]}
-            />{" "}
-          </ul>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="bounceInRight">
-          <ul className="cards__items">
-            <CardItem
-              src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
-              text="Implementation of data structures and Algorithms in C++"
-              label="Data structures"
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/Data-Structures"
-              pathLink=""
-              pathSand=""
-              tags={["Data-structures", "Algorithms", "Console"]}
-            />
-            <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
-              text="C++ simulation of cars arrivals/departures in 2-lanes parking garage."
-              label="Garage Cars"
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/GarageCars"
-              pathLink=""
-              pathSand=""
-              tags={["Data-structures", "Stacks", "Console"]}
-            />
           </ul>
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="bounceInRight">
