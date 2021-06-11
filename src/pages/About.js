@@ -180,7 +180,7 @@ function About() {
         </div>
       </ScrollAnimation>
 
-      <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+      <div style={{ textAlign: "center", marginBottom: "6rem" }}>
         <ScrollAnimation animateIn="bounceInUp" animateOut="bounceOutdown">
           <div className="cards__container skills">
             <Skills />
