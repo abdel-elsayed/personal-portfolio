@@ -22,6 +22,70 @@ div {
   letter-spacing: 2px;
 }
 
+.main-btns {
+  display: flex;
+  flex-direction: column;
+}
+.social-button {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.resume-button {
+  display: flex;
+  letter-spacing: 3px;
+  justify-content: center;
+  align-items: center;
+}
+.learn-more-button {
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  padding: 8px 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.button-primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  text-align: center;
+  padding: 12px 26px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.button-outline {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.button-outline:hover {
+  transition: all 0.3s ease-out;
+  background: #e63946;
+  color: #ffffff;
+  transition: 250ms;
+}
+.resume:hover {
+  background: #e63946;
+}
+.button-primary:hover {
+  transition: all 0.3s ease-out;
+  background: #e63946;
+  color: #ffffff;
+  transition: 250ms;
+}
+.learn-more-button:hover {
+  background-color: rgb(248, 248, 248);
+  color: rgb(5, 5, 5);
+}
+
 @media screen and (max-width: 768px) {
   .main {
     font-size: 30px;

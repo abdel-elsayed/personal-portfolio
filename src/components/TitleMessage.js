@@ -14,12 +14,50 @@ const TitleMessage = () => (
     <div className="sub">
       <Typewriter
         options={{
-          strings: ["Future Software Engineer", "Always Learning", "Student"],
+          strings: ["Aspiring Software Engineer", "Always Learning", "Student"],
           autoStart: true,
           loop: true,
           delay: 100,
         }}
       />
+
+      <div className="social-button">
+        <a
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/abdelrahman-elsayed-318539145/"
+          className="button-primary"
+          target="_blank"
+        >
+          LinkedIn <i className="fab fa-linkedin" />
+        </a>
+        <a
+          rel="noreferrer"
+          href="https://github.com/abdel-elsayed"
+          className="button-outline"
+          target="_blank"
+        >
+          GitHub <i className="fab fa-github-alt" />
+        </a>
+      </div>
+      <div className="resume-button">
+        <a
+          rel="noreferrer"
+          href="https://drive.google.com/file/d/1Tm6mSoADrMrzT9blOVECJP3UoIzuVkjJ/view"
+          className="button-primary first-two-buttons"
+          target="_blank"
+        >
+          Resume <i class="fas fa-id-badge"></i>
+        </a>
+
+        {/* <a
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/1XvAWE3iHVBvLmvJuhU66ApDrdkiZ1MSS/view?usp=sharing"
+            className="button-outline first-two-buttons"
+            target="_blank"
+          >
+            Software Dev Resume <i class="fas fa-terminal"></i>
+          </a> */}
+      </div>
     </div>
   </div>
 );
