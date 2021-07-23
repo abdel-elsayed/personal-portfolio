@@ -44,7 +44,7 @@ function Footer() {
         <a
           rel="noreferrer"
           class="social-icon-link"
-          href="https://drive.google.com/file/d/16Mpgq_HaPl9x3s_f3Ngk2Ju9rsnQIo66/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Tm6mSoADrMrzT9blOVECJP3UoIzuVkjJ/view"
           target="_blank"
           aria-label="resume"
         >
