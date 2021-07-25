@@ -1,6 +1,6 @@
 html {
-  background: url("https://res.cloudinary.com/dnkxmjpxy/image/upload/v1623246433/wallhaven-j8x6dp_if3h29.jpg")
-    no-repeat center center fixed;
+  background: url("../assets/Scattered-Forcefields.svg") no-repeat center center
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
