@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import TitleMessage from "../components/TitleMessage";
-import illust from "../assets/mirage-644.png";
+//import illust from "../assets/mirage-644.png";
 import illust1 from "../assets/puzzle-programmist.png";
 import "../styling/Home.css";
 
