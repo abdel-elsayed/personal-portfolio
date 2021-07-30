@@ -250,7 +250,7 @@ function Cards() {
       </div>
       <div style={{ textAlign: "center", marginBottom: "2rem" }}>
         <a
-          rel="noreferrer"
+          rel="noopener noreferrer"
           href="https://github.com/abdel-elsayed"
           className="more-projects"
           target="_blank"
@@ -263,7 +263,7 @@ function Cards() {
             window.scrollTo(0, 0);
           }}
         >
-          <i class="fas fa-sort-up fa-5x"></i>
+          <i className="fas fa-sort-up fa-5x"></i>
         </button>
       </div>
     </div>

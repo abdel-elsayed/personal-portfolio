@@ -16,8 +16,8 @@ class App extends Component {
           render={({ location }) => (
             <TransitionGroup className="RTG">
               <CSSTransition key={location.key} timeout={500} classNames="fade">
-                <Switch location={location}>
-                  <div className="content-wrapper">
+                <div className="content-wrapper">
+                  <Switch location={location}>
                     <Route
                       exact
                       path="/Home"
@@ -34,8 +34,8 @@ class App extends Component {
                     <Route exact path="/">
                       <Redirect to="/Home" />
                     </Route>
-                  </div>
-                </Switch>
+                  </Switch>
+                </div>
               </CSSTransition>
             </TransitionGroup>
           )}

@@ -10,7 +10,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   return (
-    <nav className="navbar">
+    <nav className={click ? "white-navbar" : "navbar"}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <div className="logo-text">A_ELSAYED</div>

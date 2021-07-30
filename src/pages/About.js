@@ -48,7 +48,7 @@ function About() {
           delay={false}
           className="downArrow bounce"
         >
-          <i class="fas fa-mouse fa-3x"></i>
+          <i className="fas fa-mouse fa-3x"></i>
         </Link>
       </div>
 
@@ -189,7 +189,7 @@ function About() {
             window.scrollTo(0, 0);
           }}
         >
-          <i class="fas fa-sort-up fa-5x"></i>
+          <i className="fas fa-sort-up fa-5x"></i>
         </button>
       </div>
     </div>

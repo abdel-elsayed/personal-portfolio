@@ -8,7 +8,7 @@ const TitleMessage = () => (
       Hi There, I am
       <br />
       <span>
-        <strong>Abdelrahman Elsayed</strong> <i class="fas fa-rocket"></i>
+        <strong>Abdelrahman Elsayed</strong> <i className="fas fa-rocket"></i>
       </span>
     </div>
     <div className="sub">
@@ -23,7 +23,7 @@ const TitleMessage = () => (
 
       <div className="social-button">
         <a
-          rel="noreferrer"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/abdelrahman-elsayed-318539145/"
           className="button-primary"
           target="_blank"
@@ -31,7 +31,7 @@ const TitleMessage = () => (
           LinkedIn <i className="fab fa-linkedin" />
         </a>
         <a
-          rel="noreferrer"
+          rel="noopener noreferrer"
           href="https://github.com/abdel-elsayed"
           className="button-outline"
           target="_blank"
@@ -41,12 +41,12 @@ const TitleMessage = () => (
       </div>
       <div className="resume-button">
         <a
-          rel="noreferrer"
+          rel="noopener noreferrer"
           href="https://drive.google.com/file/d/1Tm6mSoADrMrzT9blOVECJP3UoIzuVkjJ/view"
           className="button-primary first-two-buttons"
           target="_blank"
         >
-          Resume <i class="fas fa-id-badge"></i>
+          Resume <i className="fas fa-id-badge"></i>
         </a>
 
         {/* <a
