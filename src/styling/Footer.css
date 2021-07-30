@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  background: linear-gradient(90deg, #3b5272 0%, #162b47 100%);
+  /* background: linear-gradient(90deg, #3b5272 0%, #162b47 100%); */
+  background: transparent;
   padding: 1rem 0 2rem 0;
   bottom: 0;
   width: 100%;
@@ -11,7 +12,7 @@
 }
 
 .social-icon-link {
-  color: #fff;
+  color: #3b5272;
   font-size: 24px;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: #3b5272;
 }
 
 .social-icon-link:hover {

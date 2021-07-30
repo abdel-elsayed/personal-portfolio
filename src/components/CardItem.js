@@ -68,6 +68,7 @@ function CardItem(props) {
                 listStyleType: "none",
                 padding: ".1rem",
                 marginTop: "0.2rem",
+                color: "white",
               }}
             >
               <li
@@ -147,7 +148,9 @@ function CardItem(props) {
               {props.tags
                 ? Array(props.tags.length)
                     .fill()
-                    .map((_, i) => <p>#{props.tags[i]}</p>)
+                    .map((_, i) => (
+                      <p style={{ color: "white" }}>#{props.tags[i]}</p>
+                    ))
                 : null}
             </ul>
           </div>

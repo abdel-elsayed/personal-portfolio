@@ -20,6 +20,16 @@
   color: #e63946;
   text-decoration: underline;
 }
+.about-text > .second-header-text {
+  text-shadow: 4px 5px 9px rgba(0, 0, 0, 0.4);
+  margin: 1rem 0;
+  font-size: 30px;
+  line-height: 2.4rem;
+}
+.about-text > .about-paragraph {
+  color: #3b5272;
+  font-size: x-large;
+}
 
 .activities-container {
   align-items: center;

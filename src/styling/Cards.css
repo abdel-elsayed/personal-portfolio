@@ -221,13 +221,15 @@ h2 {
 
 .more-projects {
   background-color: white;
-  color: black;
+  color: #1d3557;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
   text-align: center;
   padding: 12px 26px;
   font-size: 20px;
   text-decoration: none;
+  margin-top: 20px;
+  border-radius: 10%;
 }
 
 .more-projects:hover {

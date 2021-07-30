@@ -18,7 +18,7 @@ function Cards() {
         />
 
         <h1
-          style={{ marginTop: "6rem", marginBottom: "4rem", color: "#f1faee" }}
+          style={{ marginTop: "6rem", marginBottom: "4rem", color: "#3b5272" }}
         >
           Check my work out
         </h1>
@@ -254,7 +254,6 @@ function Cards() {
           href="https://github.com/abdel-elsayed"
           className="more-projects"
           target="_blank"
-          style={{ marginTop: "20px", borderRadius: "10%" }}
         >
           More projects <i className="fab fa-github-alt" />
         </a>{" "}

@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, #1d3557 0%, #162b47 100%);
+  /* background: linear-gradient(90deg, #1d3557 0%, #162b47 100%); */
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: #3b5272;
   justify-self: start;
   margin-left: 10px;
   cursor: pointer;
@@ -44,7 +45,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #3b5272;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -95,11 +96,11 @@
   }
   .navbar__link--active {
     background-color: #e63946;
-    color: #1d3557;
+    color: white;
     border-radius: 0;
   }
   .nav-menu.active {
-    background: #1d3557;
+    background: white;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

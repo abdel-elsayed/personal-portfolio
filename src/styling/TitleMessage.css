@@ -6,9 +6,9 @@ strong {
   font-size: 1.25em;
 }
 
-div {
+.titleMessage {
   color: white;
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  text-shadow: 4px 5px 9px rgba(0, 0, 0, 0.4);
   font-weight: 100;
   letter-spacing: 7px;
 }
@@ -48,7 +48,7 @@ div {
 }
 .button-primary {
   background-color: var(--primary);
-  color: #242424;
+  color: #3b5272;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
   text-align: center;
@@ -58,7 +58,7 @@ div {
 }
 .button-outline {
   background-color: transparent;
-  color: #fff;
+  color: #3b5272;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
   padding: 12px 26px;
@@ -94,7 +94,6 @@ div {
     margin-top: 2rem;
   }
   div {
-    color: white;
     text-size-adjust: 10px;
   }
 }
