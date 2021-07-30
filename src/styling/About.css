@@ -21,7 +21,8 @@
   text-decoration: underline;
 }
 .about-text > .second-header-text {
-  text-shadow: 4px 5px 9px rgba(0, 0, 0, 0.4);
+  color: #e63946;
+  text-shadow: 4px 5px 9px white;
   margin: 1rem 0;
   font-size: 30px;
   line-height: 2.4rem;
@@ -34,9 +35,9 @@
 .activities-container {
   align-items: center;
   width: 50%;
-  background-color: #d9d9d9;
+  background: transparent;
   margin: 2rem auto 2rem auto;
-  border: 0.2rem solid black;
+  border: 0.2rem solid #3b5272;
   border-radius: 3%;
   line-height: 25px;
   font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Gill Sans MT",

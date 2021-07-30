@@ -31,7 +31,7 @@ function Skills(props) {
       animate={{ opacity: shouldShowActions ? 1 : 0 }}
       transition={{ opacity: { duration: 2 } }}
     >
-      <h2 style={{ color: "#f1faee" }}>Skills</h2>
+      <h2 style={{ color: "#1d3557" }}>Skills</h2>
       <ul className="skills-view">
         <div className="skills-card">
           <h3> Programming languages</h3>

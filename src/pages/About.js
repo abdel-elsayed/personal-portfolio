@@ -54,7 +54,7 @@ function About() {
 
       <div id="Experience"></div>
       <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-        <h2 style={{ marginTop: "7rem", color: "#f1faee" }}>Experience</h2>
+        <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Experience</h2>
         <div className="experience-container">
           <Experience
             title="Talent Pipeline Residency Full Stack Development Bootcamp"
@@ -90,7 +90,7 @@ function About() {
       </ScrollAnimation>
 
       <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
-        <h2 style={{ marginTop: "7rem", color: "#f1faee" }}>Activities</h2>
+        <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Activities</h2>
         <div className="activities-container">
           <ul className="experience-item">
             <li
