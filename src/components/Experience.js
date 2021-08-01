@@ -5,26 +5,25 @@ function Experience(props) {
   return (
     <div>
       <ul className="experience-item">
-        <li style={{ marginBottom: "0rem", textDecoration: "underline" }}>
-          <strong>{props.title}</strong>
-        </li>
-        <p
-          style={{
-            marginTop: "0.2rem",
-            textDecoration: "underline",
-            color: "#457B9D",
-          }}
-        >
-          {props.subtitle}
-        </p>
+        <ul style={{ listStyle: "none", display: "flex" }}>
+          <li>
+            <strong>{props.title}</strong>
+            <p className="experience-subtitle">{props.subtitle}</p>
+          </li>
+          <li
+            style={{
+              marginLeft: "auto",
+            }}
+          >
+            <img alt="logo" className="company-logo" src={props.company_logo} />
+          </li>
+        </ul>
+
         <li>- {props.first} </li>
         <li>- {props.second} </li>
         <li>- {props.third} </li>
-        <li
-          style={{ marginTop: "1rem", textAlign: "center", color: "#be837d" }}
-        >
-          {props.date}
-        </li>
+        {props.fourth ? <li>- {props.fourth} </li> : null}
+        <li className="experience-date">{props.date}</li>
       </ul>
     </div>
   );
