@@ -53,7 +53,7 @@ function About() {
       </div>
 
       <div id="Experience"></div>
-      <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+      <ScrollAnimation animateIn="bounceInRight" animateOnce>
         <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Experience</h2>
         <div className="experience-container">
           <Experience
@@ -89,7 +89,7 @@ function About() {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
+      <ScrollAnimation animateIn="bounceInLeft" animateOnce>
         <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Activities</h2>
         <div className="activities-container">
           <ul className="experience-item">
@@ -178,7 +178,7 @@ function About() {
       </ScrollAnimation>
 
       <div style={{ textAlign: "center", marginBottom: "6rem" }}>
-        <ScrollAnimation animateIn="bounceInUp" animateOut="bounceOutdown">
+        <ScrollAnimation animateIn="bounceInUp" animateOnce>
           <div className="cards__container skills">
             <Skills />
           </div>

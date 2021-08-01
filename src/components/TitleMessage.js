@@ -42,21 +42,12 @@ const TitleMessage = () => (
       <div className="resume-button">
         <a
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1Tm6mSoADrMrzT9blOVECJP3UoIzuVkjJ/view"
+          href="https://drive.google.com/file/d/1G_Vcb2L0_Vf2knygZK6KJktnvXRHLt9m/view?usp=sharing"
           className="button-primary first-two-buttons"
           target="_blank"
         >
           Resume <i className="fas fa-id-badge"></i>
         </a>
-
-        {/* <a
-            rel="noreferrer"
-            href="https://drive.google.com/file/d/1XvAWE3iHVBvLmvJuhU66ApDrdkiZ1MSS/view?usp=sharing"
-            className="button-outline first-two-buttons"
-            target="_blank"
-          >
-            Software Dev Resume <i class="fas fa-terminal"></i>
-          </a> */}
       </div>
     </div>
   </div>

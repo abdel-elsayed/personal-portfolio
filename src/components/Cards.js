@@ -30,7 +30,7 @@ function Cards() {
       </div>
       <div id="project"></div>
       <div className="cards__wrapper">
-        <ScrollAnimation animateIn="bounceInRight">
+        <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
               vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
@@ -64,7 +64,7 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight">
+        <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
               src="https://techkhabaren.files.wordpress.com/2012/06/zip.jpg"
@@ -103,7 +103,7 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight">
+        <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
               src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
@@ -139,7 +139,7 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight">
+        <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
               src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
@@ -174,7 +174,7 @@ function Cards() {
             />
           </ul>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInRight">
+        <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614629989/Screen_Shot_2021-03-01_at_3.19.06_PM_fxyhoc.png"

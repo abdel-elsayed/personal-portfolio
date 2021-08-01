@@ -25,7 +25,7 @@ function Skills(props) {
   return (
     <ScrollAnimation
       animateIn="bounceInLeft"
-      animateOut="bounceOutRight"
+      animateOnce
       className="skills__wrapper"
       initial={{ opacity: 0 }}
       animate={{ opacity: shouldShowActions ? 1 : 0 }}
