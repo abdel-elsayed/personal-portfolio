@@ -59,7 +59,7 @@ function About() {
           <Experience
             title="Lowe's Companies, Inc"
             subtitle="iOS Software Development Intern"
-            first="Participated in Agile/Scrum rituals and ceremonies as an effevctive team member"
+            first="Participated in Agile/Scrum rituals and ceremonies as an effective team member"
             second="Utilize and learn proxy tools to analyze Adobe and Firebase network calls"
             third="Modified, developed and tested analytics functionality for the iOS consumer application"
             fourth="Shadow and assist senior software engineers perform End-to-End testing across the iOS application"
