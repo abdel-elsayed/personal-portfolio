@@ -40,7 +40,7 @@
   color: #457b9d;
 }
 .company-logo {
-  width: 5rem;
+  width: 7rem;
 }
 .experience-date {
   margin-top: 1rem;
@@ -54,7 +54,6 @@
   }
   .company-logo {
     margin-left: 10px;
-    background-color: blue;
   }
 }
 

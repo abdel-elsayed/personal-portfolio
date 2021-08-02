@@ -64,7 +64,7 @@ function About() {
             third="Modified, developed and tested analytics functionality for the iOS consumer application"
             fourth="Shadow and assist senior software engineers perform End-to-End testing across the iOS application"
             date="June 2021 - Present"
-            company_logo="https://www.lowes.com/images/logos/2016_lowes_logo/lowes_logo_pms_280/Lowes_logo_pms_280.jpg"
+            company_logo="https://download.logo.wine/logo/Lowe's/Lowe's-Logo.wine.png"
           />
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
@@ -77,7 +77,7 @@ function About() {
             third="Applied industry best practices for design, implementation, and deployment of architectural patterns such as Model-View-Controller,
        and version control with Git/GitHub"
             date="January 2021 - Present"
-            company_logo="https://lh3.googleusercontent.com/proxy/4gFIESkhU9nhOXzdami4y6wKBYtKYvOMLo8mBqg8nXvR4Us4qLQVK7VSWdOJ1A3FDoshW7p_nCDwRP--LqK6_Lj2sSaCQQ"
+            company_logo="https://www.nypl.org/sites/default/files/ttp_logo_2.png"
           />
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
@@ -87,7 +87,7 @@ function About() {
             second="Worked with college-level students inside and outside classroom in understanding different computer science and math concepts. "
             third="led and taught an introduction to programming class for high-school students on weekends in CSI. "
             date="October 2019 - August 2020"
-            company_logo="https://pbs.twimg.com/profile_images/773181881076645892/tlYLRgDN_400x400.jpg"
+            company_logo="https://cdn.freelogovectors.net/wp-content/uploads/2021/04/college-of-staten-island-logo-freelogovectors.net_.png"
           />
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
@@ -98,7 +98,7 @@ function About() {
             second="Managed and coordinated all retail store operations"
             third="Motivated sales employees to improve morale, performance and sales revenue."
             date="June 2016 - August 2019"
-            company_logo="https://www.fox16.com/wp-content/uploads/sites/84/2017/04/Payless20Shoes_1491414772247_19407241_ver1.0.jpg"
+            company_logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/Payless_Logo.png"
           />
         </div>
       </ScrollAnimation>
