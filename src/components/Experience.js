@@ -15,7 +15,14 @@ function Experience(props) {
               marginLeft: "auto",
             }}
           >
-            <img alt="logo" className="company-logo" src={props.company_logo} />
+            <button>
+              {" "}
+              <img
+                alt="logo"
+                className="company-logo"
+                src={props.company_logo}
+              />
+            </button>
           </li>
         </ul>
 
