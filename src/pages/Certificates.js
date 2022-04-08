@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "../styling/About.css";
 import "../styling/Cards.css";
-import Skills from "../components/Skills";
-import Experience from "../components/Experience";
-import ScrollAnimation from "react-animate-on-scroll";
-import { Link } from "react-scroll";
+// import Skills from "../components/Skills";
+// import Experience from "../components/Experience";
+// import ScrollAnimation from "react-animate-on-scroll";
+// import { Link } from "react-scroll";
 
 function Certificates() {
     useEffect(() => {
