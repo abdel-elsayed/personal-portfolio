@@ -3,6 +3,7 @@ import "../App.css";
 import TitleMessage from "../components/TitleMessage";
 //import illust from "../assets/mirage-644.png";
 import illust1 from "../assets/Illust1.png";
+import illust3 from "../assets/illust3.gif";
 import "../styling/Home.css";
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
         <img
           alt="waving-hand-illustration"
           className="illustration"
-          src={illust1}
+          src={illust3}
         />
       </div>
     </div>

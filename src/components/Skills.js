@@ -193,7 +193,7 @@ function Skills(props) {
             <li className="skill">
               <img
                 alt="bitbucket"
-                src="https://cdn.worldvectorlogo.com/logos/bitbucket-icon.svg"
+                src="https://cdn.iconscout.com/icon/free/png-256/bitbucket-8-1175256.png"
                 width= "45"
               />
               </li>
