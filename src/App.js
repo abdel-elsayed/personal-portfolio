@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import Certificates from "./pages/Certificates";
 
 class App extends Component {
   render() {
@@ -30,7 +31,15 @@ class App extends Component {
                       className="About"
                       component={About}
                     />
-                    <Route exact path="/Projects" component={Projects} />
+                    <Route
+                      exact
+                      path="/Certificates"
+                      className="Certificates"
+                      component={Certificates}
+                    />
+                    <Route exact path="/Projects" 
+                    component={Projects} 
+                    />
                     <Route exact path="/">
                       <Redirect to="/Home" />
                     </Route>

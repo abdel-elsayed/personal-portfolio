@@ -29,7 +29,7 @@ function About() {
             <p className="second-header-text">
               <strong>
                 Based in NYC,
-                <br /> I'm a student and developer.
+                <br /> I develop software and stuff like that.
               </strong>
             </p>
             <p className="about-paragraph">
@@ -87,7 +87,7 @@ function About() {
             second="Worked with college-level students inside and outside classroom in understanding different computer science and math concepts. "
             third="led and taught an introduction to programming class for high-school students on weekends in CSI. "
             date="October 2019 - August 2020"
-            company_logo="https://cdn.freelogovectors.net/wp-content/uploads/2021/04/college-of-staten-island-logo-freelogovectors.net_.png"
+            company_logo="http://www1.cuny.edu/sites/asap/wp-content/uploads/sites/8/2020/02/csi_logo.jpg"
           />
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience

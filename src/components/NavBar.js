@@ -50,6 +50,16 @@ function Navbar() {
               Projects
             </NavLink>
           </li>
+          {/* <li className="nav-item">
+            <NavLink
+              to="/Certificates"
+              activeClassName="navbar__link--active"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Certifications
+            </NavLink>
+          </li> */}
         </ul>
       </div>
     </nav>
