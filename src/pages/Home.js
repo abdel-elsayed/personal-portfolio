@@ -22,19 +22,14 @@ function Home() {
     <div className="main-container">
       <TitleMessage />
       <div className="left-container">
-        {/* <img
-          alt="waving-hand-illustration"
-          className="illustration"
-          src={illust3}
-        /> */}
-          <div  className="illustration">
-              <Lottie 
-                options={defaultOptions}
-                height={400}
-                width={400}
-              />
-            </div>
+        <div  className="illustration">
+          <Lottie 
+            options={defaultOptions}
+            height={400}
+            width={400}
+          />
         </div>
+      </div>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import "../styling/Cards.css";
 // import { Link } from "react-scroll";
 import Lottie from 'react-lottie';
 // import animationData from "../assets/animationData.json"
-import animationData1 from "../assets/codingApe.json"
+import animationData1 from "../assets/underConstruction.json"
 
 function Certificates() {
   const defaultOptions = {
@@ -29,7 +29,7 @@ function Certificates() {
         }}
       > 
        <div className="upper-view1">
-       <div  className="illustration">
+       <div  className="image1">
               <Lottie 
                 options={defaultOptions}
                 height={400}
