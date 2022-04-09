@@ -12,9 +12,8 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 7rem;
-  margin-top: 4rem;
   margin-bottom: 2rem;
+  width: 25rem;
 }
 @keyframes travelling {
   0% {

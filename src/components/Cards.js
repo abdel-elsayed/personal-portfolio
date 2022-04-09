@@ -4,38 +4,27 @@ import CardItem from "./CardItem";
 import ScrollAnimation from "react-animate-on-scroll";
 import graphqlLogo from "../assets/graphql.png";
 import { Link } from "react-scroll";
-import img from "../assets/3d-flame-116.png";
-// import Lottie from 'react-lottie';
-// import animationData from "../assets/animationData.json"
-// import animationData1 from "../assets/laptop.json"
+import Lottie from 'react-lottie';
+import animationData1 from "../assets/laptop.json"
 
 function Cards() {
-  // const defaultOptions = {
-  //   loop: true,
-  //   autoplay: true,
-  //   animationData: animationData1,
-  //   rendererSettings: {
-  //     preserveAspectRatio: "xMidYMid slice"
-  //   }
-  // }
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData1,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  }
 
   return (
     <div className="cards">
       <div>
-        <img
-          alt="gif"
-          className="image1 travel"
-          style={{ marginTop: "2rem" }}
-          src={img}
-        />
-         {/* <div  className="image1 travel">
-              <Lottie 
-                options={defaultOptions}
-                height={400}
-                width={400}
-              />
-            </div> */}
-
+        <div className="image1">
+           <Lottie 
+            options={defaultOptions}
+          /></div>
+         
         <h1
           style={{ marginTop: "6rem", marginBottom: "4rem", color: "#3b5272" }}
         >
@@ -44,7 +33,6 @@ function Cards() {
 
         <Link to="project" spy={true} className="downArrow bounce">
           <i className="fas fa-arrow-circle-down fa-3x"></i>
-          {/* <p style={{ marginTop: "1rem" }}>scroll down</p> */}
         </Link>
       </div>
       <div id="project"></div>
