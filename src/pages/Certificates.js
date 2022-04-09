@@ -5,31 +5,37 @@ import "../styling/Cards.css";
 // import Experience from "../components/Experience";
 // import ScrollAnimation from "react-animate-on-scroll";
 // import { Link } from "react-scroll";
+import Lottie from 'react-lottie';
+// import animationData from "../assets/animationData.json"
+import animationData1 from "../assets/codingApe.json"
 
 function Certificates() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData1,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  }
     useEffect(() => {
       window.scrollTo(0, 0);
     });
     return (
+      
       <div
         style={{
           padding: "0 0",
         }}
       > 
-       <div className="upper-view">
-            <p className="header-text">Aspiring Software Engineer</p>
-            <p className="second-header-text">
-              <strong>
-                Based in NYC,
-                <br /> I develop software and stuff like that.
-              </strong>
-            </p>
-            <p className="about-paragraph">
-              Constantly learning and exploring new skills. Passionate about
-              science, creativity, and new technologies and what problems can
-              they solve plus how can I use them to build better and scalable
-              products.
-            </p>
+       <div className="upper-view1">
+       <div  className="illustration">
+              <Lottie 
+                options={defaultOptions}
+                height={400}
+                width={400}
+              />
+            </div>
         </div>
     </div>
     );

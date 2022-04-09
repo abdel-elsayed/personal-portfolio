@@ -32,7 +32,7 @@ function CardItem(props) {
             <p className="cards__item__text">{props.text}</p>
             <a
               className="link-button"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href={props.pathSource}
               target="_blank"
             >
@@ -41,7 +41,7 @@ function CardItem(props) {
             {props.pathLink !== "" ? (
               <a
                 className="link-button"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href={props.pathLink}
                 target="_blank"
               >
@@ -51,7 +51,7 @@ function CardItem(props) {
             {props.pathSand !== "" ? (
               <a
                 className="link-button"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href={props.pathSand}
                 target="_blank"
               >
