@@ -9,7 +9,7 @@ function Certificates() {
     window.scrollTo(0, 0);
   });
   return (
-    <div className="cards__wrapper">
+    <div>
       <ScrollAnimation animateIn="bounceInDown" animateOnce>
         <ul className="certificate_cards_items">
           <li>
