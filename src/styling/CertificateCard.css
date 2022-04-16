@@ -24,15 +24,14 @@
 li + li {
   margin-left: 2rem;
 }
-
-@media screen and (max-width: 1240px) {
-}
-
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .certificate_card {
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     width: 90%;
   }
+}
+
+@media screen and (max-width: 1300px) {
   li + li {
     margin-left: 0;
   }

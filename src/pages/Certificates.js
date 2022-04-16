@@ -54,7 +54,7 @@ function Certificates() {
           </li>
         </ul>
       </ScrollAnimation>
-      <h1>More in progress ...</h1>
+      <h2 style={{ color: "#FF5757" }}>More in progress ...</h2>
     </div>
   );
 }
