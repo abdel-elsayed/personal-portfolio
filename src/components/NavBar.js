@@ -57,7 +57,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Certifications
+              Certificates
             </NavLink>
           </li>
         </ul>

@@ -4,8 +4,8 @@ import CardItem from "./CardItem";
 import ScrollAnimation from "react-animate-on-scroll";
 import graphqlLogo from "../assets/graphql.png";
 import { Link } from "react-scroll";
-import Lottie from 'react-lottie';
-import animationData1 from "../assets/laptop.json"
+import Lottie from "react-lottie";
+import animationData1 from "../assets/laptop.json";
 
 function Cards() {
   const defaultOptions = {
@@ -13,18 +13,17 @@ function Cards() {
     autoplay: true,
     animationData: animationData1,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  }
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   return (
     <div className="cards">
       <div>
         <div className="image1">
-           <Lottie 
-            options={defaultOptions}
-          /></div>
-         
+          <Lottie options={defaultOptions} />
+        </div>
+
         <h1
           style={{ marginTop: "6rem", marginBottom: "4rem", color: "#3b5272" }}
         >
@@ -40,6 +39,7 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
+              cardType="cards__item"
               vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
               text="Object-Oriented-Programming Java/JavaFX game "
               label="Maze-Runner (Desktop)"
@@ -55,6 +55,7 @@ function Cards() {
               tags={["Software Engineering", "OOP", "GUI", "2D-Game"]}
             />{" "}
             <CardItem
+              cardType="cards__item"
               vidSrc="https://www.youtube.com/embed/2ymdGQBQ6Cg"
               text="Personal Portfolio Website"
               label="A_ELSAYED (Web)"
@@ -74,6 +75,7 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
+              cardType="cards__item"
               src="https://techkhabaren.files.wordpress.com/2012/06/zip.jpg"
               text="C++ File Compression program using Huffman-code"
               label="File Compression (Desktop)"
@@ -94,6 +96,8 @@ function Cards() {
               ]}
             />{" "}
             <CardItem
+              cardType="cards__item"
+              s
               vidSrc="https://www.youtube.com/embed/RYkkgoIA2D4"
               text="Full-stack Social-Media Web Application using MERNG stack"
               label="Enviromania (Web)"
@@ -113,6 +117,7 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
+              cardType="cards__item"
               src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
               text="Implementation of data structures and Algorithms in C++"
               label="Data structures (Desktop)"
@@ -129,6 +134,7 @@ function Cards() {
             />
 
             <CardItem
+              cardType="cards__item"
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614493223/Screen_Shot_2021-02-28_at_1.19.26_AM_qpasf2.png"
               text="Full-stack recipe website using React.js, Redux, Node.js and Easybase"
               label="Amira's kitchen (Web)"
@@ -149,6 +155,7 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
+              cardType="cards__item"
               src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
               text="C++ simulation of cars arrivals/departures in 2-lanes parking garage."
               label="Garage Cars (Desktop)"
@@ -165,6 +172,7 @@ function Cards() {
             />
 
             <CardItem
+              cardType="cards__item"
               src="https://raw.githubusercontent.com/abdel-elsayed/Lemonade-E-Commerce-Website/master/images/bagsPageDemo.png"
               text="Full-Stack PHP E-commerce website"
               label="Lemonade E-commerce (Web)"
@@ -184,6 +192,7 @@ function Cards() {
         <ScrollAnimation animateIn="bounceInRight" animateOnce>
           <ul className="cards__items">
             <CardItem
+              cardType="cards__item"
               src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1614629989/Screen_Shot_2021-03-01_at_3.19.06_PM_fxyhoc.png"
               text="Full-Stack clone of Amazon using fire-base and React.js"
               label="Amazon clone (Web)"

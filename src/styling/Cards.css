@@ -69,6 +69,11 @@ h2 {
   height: 37em;
 }
 
+.certificates_card_item {
+  width: 30em;
+  height: 44em;
+}
+
 .cards__item__link {
   display: flex;
   flex-flow: column;
@@ -235,6 +240,30 @@ h2 {
   background-color: #e63946;
   color: white;
 }
+
+.link-button {
+  text-decoration: none;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  transition: all 0.4s ease 0s;
+  color: #323c44;
+  background: white;
+}
+
+.link-button:hover {
+  color: #323c44;
+  background: #e63946;
+}
+
+.tags {
+  font-weight: bolder;
+}
+
 
 @media screen and (max-width: 768px) {
   .about-text1 {

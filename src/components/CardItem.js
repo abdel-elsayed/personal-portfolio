@@ -1,5 +1,4 @@
 import React from "react";
-import "../styling/CardItem.css";
 
 function CardItem(props) {
   return (
@@ -36,7 +35,9 @@ function CardItem(props) {
               href={props.pathSource}
               target="_blank"
             >
-              Source Code
+              {props.cardType === "certificates_card_item"
+                ? "View Certificate"
+                : "Source Code"}
             </a>
             {props.pathLink !== "" ? (
               <a

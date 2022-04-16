@@ -69,14 +69,14 @@ function Skills(props) {
                 alt="JAVA"
                 src="https://img.icons8.com/dusk/64/000000/java-coffee-cup-logo.png"
                 width="50"
-                />
+              />
             </li>
             <li className="skill">
               <img
                 alt="JS"
                 src="https://img.icons8.com/wired/64/000000/javascript-logo.png"
                 width="50"
-                />
+              />
             </li>
           </ul>
         </div>
@@ -94,21 +94,21 @@ function Skills(props) {
               <img
                 alt="html"
                 src="https://img.icons8.com/dusk/64/000000/html-5.png"
-                width = "50"
+                width="50"
               />
             </li>
             <li className="skill">
               <img
                 alt="react"
                 src="https://img.icons8.com/nolan/96/react-native.png"
-                width = "70"
+                width="70"
               />
             </li>
             <li className="skill">
               <img
                 alt="redux"
                 src="https://img.icons8.com/color/48/000000/redux.png"
-                width = "50"
+                width="50"
               />
             </li>
           </ul>
@@ -122,26 +122,25 @@ function Skills(props) {
               padding: ".1rem",
             }}
           >
-          
             <li className="skill">
               <img
                 alt="express"
                 src="https://www.resourcifi.com/wp-content/themes/resourcifi-child/img/express-min.png"
-                width = "100"
+                width="100"
               />
             </li>
             <li className="skill">
               <img
                 alt="express"
                 src="https://img.icons8.com/color/48/000000/firebase.png"
-                width = "50"
-                />
+                width="50"
+              />
             </li>
-              <li className="skill">
+            <li className="skill">
               <img
                 alt="node"
                 src="https://img.icons8.com/color/96/000000/nodejs.png"
-                width = "60"
+                width="60"
               />
             </li>
           </ul>
@@ -194,22 +193,21 @@ function Skills(props) {
               <img
                 alt="bitbucket"
                 src="https://cdn.iconscout.com/icon/free/png-256/bitbucket-8-1175256.png"
-                width= "45"
+                width="45"
               />
-              </li>
+            </li>
             <li className="skill">
               <img
                 alt="git"
                 src="https://img.icons8.com/color/96/000000/git.png"
-              
-                width= "70"
-                />
+                width="70"
+              />
             </li>
             <li className="skill">
               <img
                 alt="Github"
                 src="https://img.icons8.com/nolan/64/github.png"
-                width= "60"
+                width="60"
               />
             </li>
           </ul>
@@ -234,7 +232,8 @@ function Skills(props) {
               <img
                 alt="mongoodb"
                 src="https://img.icons8.com/color/48/000000/mongodb.png"
-                width="50"/>
+                width="50"
+              />
             </li>
             <li className="skill">
               <img
