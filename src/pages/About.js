@@ -34,8 +34,8 @@ function About() {
             </p>
             <p className="about-paragraph">
               Constantly learning and exploring new skills. Passionate about
-              science, creativity, and new technologies and what problems can
-              they solve plus how can I use them to build better and scalable
+              science, creativity, and new technologies, what problems they can
+              solve, and how I can use them to build better and scalable
               products.
             </p>
             <br />
