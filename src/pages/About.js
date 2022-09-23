@@ -64,7 +64,7 @@ function About() {
             third="Modified, developed and tested analytics functionality for the iOS consumer application"
             fourth="Shadow and assist senior software engineers perform End-to-End testing across the iOS application"
             date="June 2021 - Present"
-            company_logo="https://download.logo.wine/logo/Lowe's/Lowe's-Logo.wine.png"
+            company_logo="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1663953596/Lowes_logo_pms_280_dyodgu.png"
           />
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
