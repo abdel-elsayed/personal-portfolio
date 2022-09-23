@@ -46,7 +46,7 @@ const TitleMessage = () => (
       <div className="resume-button">
         <a
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1G_Vcb2L0_Vf2knygZK6KJktnvXRHLt9m/view?usp=sharing"
+          href="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1663952357/Abdelrahman_Elsayed-2_iat0mw.png"
           className="button-primary first-two-buttons"
           target="_blank"
         >
