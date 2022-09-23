@@ -35,6 +35,8 @@ h3 {
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   overflow: hidden;
   text-decoration: none;
+  height: 20rem;
+  margin-bottom: 2rem;
 }
 
 .skill {

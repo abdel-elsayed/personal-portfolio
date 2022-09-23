@@ -1,4 +1,22 @@
 import React from "react";
+import {
+  SiFirebase,
+  SiHeroku,
+  SiNetlify,
+  SiBitbucket,
+  SiGit,
+  SiGithub,
+  SiMongodb,
+  SiMysql,
+  SiReact,
+  SiRedux,
+  SiHtml5,
+  SiSwift,
+  SiJava,
+  SiJavascript,
+  SiExpress,
+  SiNodedotjs,
+} from "react-icons/si";
 import "../styling/Skills.css";
 
 import ScrollAnimation from "react-animate-on-scroll";
@@ -44,39 +62,13 @@ function Skills(props) {
             }}
           >
             <li className="skill">
-              <img
-                alt="Swift"
-                src="https://cdn-blog.adafruit.com/uploads/2019/04/Swift_logo.svg_.png"
-                width="50"
-              />
-            </li>
-            {/* <li className="skill">
-              <img
-                alt="C++"
-                src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-                width="50"
-                />
-            </li> */}
-            {/* <li className="skill">
-              <img
-                alt="PHP"
-                src="https://img.icons8.com/dusk/64/000000/php-logo.png"
-                width="50"
-                />
-            </li> */}
-            <li className="skill">
-              <img
-                alt="JAVA"
-                src="https://img.icons8.com/dusk/64/000000/java-coffee-cup-logo.png"
-                width="50"
-              />
+              <SiSwift size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="JS"
-                src="https://img.icons8.com/wired/64/000000/javascript-logo.png"
-                width="50"
-              />
+              <SiJava size={50} color="#dd501d" />
+            </li>
+            <li className="skill">
+              <SiJavascript size={50} color="#dd501d" />
             </li>
           </ul>
         </div>
@@ -91,25 +83,13 @@ function Skills(props) {
             }}
           >
             <li className="skill">
-              <img
-                alt="html"
-                src="https://img.icons8.com/dusk/64/000000/html-5.png"
-                width="50"
-              />
+              <SiHtml5 size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="react"
-                src="https://img.icons8.com/nolan/96/react-native.png"
-                width="70"
-              />
+              <SiReact size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="redux"
-                src="https://img.icons8.com/color/48/000000/redux.png"
-                width="50"
-              />
+              <SiRedux size={50} color="#dd501d" />
             </li>
           </ul>
         </div>
@@ -123,25 +103,13 @@ function Skills(props) {
             }}
           >
             <li className="skill">
-              <img
-                alt="express"
-                src="https://www.resourcifi.com/wp-content/themes/resourcifi-child/img/express-min.png"
-                width="100"
-              />
+              <SiExpress size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="express"
-                src="https://img.icons8.com/color/48/000000/firebase.png"
-                width="50"
-              />
+              <SiFirebase size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="node"
-                src="https://img.icons8.com/color/96/000000/nodejs.png"
-                width="60"
-              />
+              <SiNodedotjs size={50} color="#dd501d" />
             </li>
           </ul>
         </div>
@@ -158,23 +126,13 @@ function Skills(props) {
             }}
           >
             <li className="skill">
-              <img
-                alt="heroku"
-                src="https://img.icons8.com/nolan/64/heroku.png"
-              />
+              <SiHeroku size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="firebase"
-                src="https://img.icons8.com/color/48/000000/firebase.png"
-              />
+              <SiFirebase size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="netlify"
-                src="https://camo.githubusercontent.com/a04f5c94c1ca51dce8845aa83b4237d487a4291441178c1b8aa34cfeb8d408bb/68747470733a2f2f696d616765732e6f70656e636f6c6c6563746976652e636f6d2f6e65746c6966792f343038376465322f6c6f676f2f3235362e706e67"
-                width="60"
-              />
+              <SiNetlify size={50} color="#dd501d" />
             </li>
           </ul>
         </div>
@@ -190,30 +148,18 @@ function Skills(props) {
             }}
           >
             <li className="skill">
-              <img
-                alt="bitbucket"
-                src="https://cdn.iconscout.com/icon/free/png-256/bitbucket-8-1175256.png"
-                width="45"
-              />
+              <SiBitbucket size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="git"
-                src="https://img.icons8.com/color/96/000000/git.png"
-                width="70"
-              />
+              <SiGit size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="Github"
-                src="https://img.icons8.com/nolan/64/github.png"
-                width="60"
-              />
+              <SiGithub size={50} color="#dd501d" />
             </li>
           </ul>
         </div>
         <div className="skills-card">
-          <h3> Databses</h3>
+          <h3> Databases</h3>
           <ul
             style={{
               textAlign: "center",
@@ -223,24 +169,17 @@ function Skills(props) {
             }}
           >
             <li className="skill">
-              <img
+              {/* <img
                 alt="express"
                 src="https://img.icons8.com/color/48/000000/firebase.png"
-              />
+              /> */}
+              <SiFirebase size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="mongoodb"
-                src="https://img.icons8.com/color/48/000000/mongodb.png"
-                width="50"
-              />
+              <SiMongodb size={50} color="#dd501d" />
             </li>
             <li className="skill">
-              <img
-                alt="mysql"
-                src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png"
-                width="100"
-              />
+              <SiMysql size={50} color="#dd501d" />
             </li>
           </ul>
         </div>
