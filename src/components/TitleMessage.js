@@ -2,7 +2,6 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import gitHubLogo from "../assets/github.png"
 import linkedInLogo from "../assets/linkedin.png"
-import astro from "../assets/astronaut.png"
 import rocket from "../assets/rocket.png"
 import resumeLogo from "../assets/resume.png"
 import "../styling/TitleMessage.css";
