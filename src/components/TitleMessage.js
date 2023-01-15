@@ -1,23 +1,28 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import gitHubLogo from "../assets/github.png"
+import linkedInLogo from "../assets/linkedin.png"
+import astro from "../assets/astronaut.png"
+import rocket from "../assets/rocket.png"
+import resumeLogo from "../assets/resume.png"
 import "../styling/TitleMessage.css";
 
 const TitleMessage = () => (
   <div className="titleMessage">
     <div className="main text-center">
-      Hi There, I am
+      Hello, my name is 
       <br />
       <span>
-        <strong>Abdelrahman Elsayed</strong> <i className="fas fa-rocket"></i>
+        <strong>Abdelrahman Elsayed</strong> <img src={rocket} style={{ width: "1.2em" }} alt="astro icon" />
       </span>
     </div>
     <div className="sub">
       <Typewriter
         options={{
           strings: [
-            "iOS Software Engineer",
-            "Always Learning",
-            "Aspiring Web Developer",
+            "iOS Mobile Developer",
+            "Loves web development",
+            "Always Learning"
           ],
           autoStart: true,
           loop: true,
@@ -28,29 +33,27 @@ const TitleMessage = () => (
       <div className="social-button">
         <a
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/abdelrahman-elsayed-318539145/"
-          className="button-primary"
-          target="_blank"
-        >
-          LinkedIn <i className="fab fa-linkedin" />
-        </a>
-        <a
-          rel="noopener noreferrer"
           href="https://github.com/abdel-elsayed"
-          className="button-outline"
+          className="logo-image"
           target="_blank"
         >
-          GitHub <i className="fab fa-github-alt" />
+          <img src={gitHubLogo} style={{ width: "3em" }} alt="gitHub logo"></img>
         </a>
-      </div>
-      <div className="resume-button">
         <a
           rel="noopener noreferrer"
           href="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1663952357/Abdelrahman_Elsayed-2_iat0mw.png"
-          className="button-primary first-two-buttons"
+          className="logo-image"
           target="_blank"
         >
-          Resume <i className="fas fa-id-badge"></i>
+           <img src={resumeLogo} style={{ width: "3em" }} alt="gitHub logo"></img>
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/abdelrahman-elsayed-318539145/"
+          className="logo-image"
+          target="_blank"
+        >
+          <img src={linkedInLogo} style={{ width: "3em" }} alt="gitHub logo"></img>
         </a>
       </div>
     </div>

@@ -5,8 +5,19 @@ import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Link } from "react-scroll";
+import Lottie from "react-lottie";
+import lottieMouseJson from "../assets/LottieMouse.json";
+
 
 function About() {
+  const lottieMouse = {
+    loop: true,
+    autoplay: true,
+    animationData: lottieMouseJson,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   useEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -25,7 +36,7 @@ function About() {
           />
           <p className="about-text">
             <br />
-            <p className="header-text">Aspiring Software Engineer</p>
+            <p className="header-text">iOS Mobile Developer</p>
             <p className="second-header-text">
               <strong>
                 Based in NYC,
@@ -42,19 +53,14 @@ function About() {
             <br />
           </p>
         </div>
-        <Link
-          to="Experience"
-          spy={true}
-          delay={false}
-          className="downArrow bounce"
-        >
-          <i className="fas fa-mouse fa-3x"></i>
+        <Link to="Experience" spy={true} className="downArrow bounce">
+          <Lottie options={lottieMouse} height={90} width={90} />
         </Link>
       </div>
 
       <div id="Experience"></div>
       <ScrollAnimation animateIn="bounceInRight" animateOnce>
-        <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Experience</h2>
+        <h2 style={{ marginTop: "5rem", color: "#1d3557" }}>Experience</h2>
         <div className="experience-container">
           <Experience
             title="Lowe's Companies, Inc"
@@ -89,7 +95,7 @@ function About() {
             date="October 2019 - August 2020"
             company_logo="http://www1.cuny.edu/sites/asap/wp-content/uploads/sites/8/2020/02/csi_logo.jpg"
           />
-          <hr style={{ borderTop: "3px double #8c8b8b" }} />
+          {/* <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
             title="Payless Shoe-source"
             subtitle="Assistant Manager, Key Holder"
@@ -99,7 +105,7 @@ function About() {
             third="Motivated sales employees to improve morale, performance and sales revenue."
             date="June 2016 - August 2019"
             company_logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/Payless_Logo.png"
-          />
+          /> */}
         </div>
       </ScrollAnimation>
 

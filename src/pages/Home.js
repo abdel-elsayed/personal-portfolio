@@ -3,7 +3,7 @@ import "../App.css";
 import TitleMessage from "../components/TitleMessage";
 import "../styling/Home.css";
 import Lottie from "react-lottie";
-import animationData1 from "../assets/boyWithPlant1.json";
+import animationData1 from "../assets/HomePageAnimation.json";
 
 function Home() {
   const defaultOptions = {

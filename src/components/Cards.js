@@ -19,7 +19,8 @@ import {
 } from "react-icons/si";
 import { Link } from "react-scroll";
 import Lottie from "react-lottie";
-import animationData1 from "../assets/laptop.json";
+import animationData1 from "../assets/data.json";
+import lottieMouseJson from "../assets/LottieMouse.json";
 
 function Cards() {
   const defaultOptions = {
@@ -30,23 +31,32 @@ function Cards() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+  const lottieMouse = {
+    loop: true,
+    autoplay: true,
+    animationData: lottieMouseJson,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   return (
     <div className="cards">
       <div>
-        <div className="image1">
+        <div className="image1" style={{ marginBottom: "1rem" }} >
           <Lottie options={defaultOptions} />
         </div>
 
         <h1
-          style={{ marginTop: "6rem", marginBottom: "4rem", color: "#3b5272" }}
+          style={{marginBottom: "2rem", color: "#3b5272" }}
         >
-          Check my work out
+          Check out my work
         </h1>
 
         <Link to="project" spy={true} className="downArrow bounce">
-          <i className="fas fa-arrow-circle-down fa-3x"></i>
+          <Lottie options={lottieMouse} height={90} width={90} />
         </Link>
+
       </div>
       <div id="project"></div>
       <div className="cards__wrapper">
