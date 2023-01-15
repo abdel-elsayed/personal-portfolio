@@ -2,7 +2,21 @@ import React from "react";
 import "../styling/Cards.css";
 import CardItem from "./CardItem";
 import ScrollAnimation from "react-animate-on-scroll";
-import graphqlLogo from "../assets/graphql.png";
+import {
+  SiGraphql,
+  SiMongodb,
+  SiReact,
+  SiRedux,
+  SiNodedotjs,
+  SiCplusplus,
+  SiJava,
+  SiPhp,
+  SiHtml5,
+  SiCss3,
+  SiHeroku,
+  SiFirebase,
+  SiStripe,
+} from "react-icons/si";
 import { Link } from "react-scroll";
 import Lottie from "react-lottie";
 import animationData1 from "../assets/laptop.json";
@@ -43,12 +57,7 @@ function Cards() {
               vidSrc="https://www.youtube.com/embed/5SRHJDLT8e4"
               text="Object-Oriented-Programming Java/JavaFX game "
               label="Maze-Runner (Desktop)"
-              tech1="fab fa-java"
-              tech2=""
-              tech3=""
-              tech4=""
-              tech5=""
-              tech6="https://static.wixstatic.com/media/2724b2_a4c660815dde4271be00cb7e9b9cae2c~mv2.png/v1/fit/w_605%2Ch_533%2Cal_c/file.png"
+              techs={[<SiJava size={40} color="#e63946" />]}
               pathSource="https://github.com/abdel-elsayed/Maze-Runner"
               pathLink=""
               pathSand=""
@@ -59,12 +68,10 @@ function Cards() {
               vidSrc="https://www.youtube.com/embed/2ymdGQBQ6Cg"
               text="Personal Portfolio Website"
               label="A_ELSAYED (Web)"
-              tech1="fab fa-node"
-              tech2="fab fa-react"
-              tech3=""
-              tech4=""
-              tech5=""
-              tech6=""
+              techs={[
+                <SiNodedotjs size={40} color="#e63946" />,
+                <SiReact size={40} color="#e63946" />,
+              ]}
               pathSource="https://github.com/abdel-elsayed/personal-portfolio"
               pathLink="https://abdelrahman-elsayed.netlify.app/"
               pathSand=""
@@ -79,12 +86,7 @@ function Cards() {
               src="https://techkhabaren.files.wordpress.com/2012/06/zip.jpg"
               text="C++ File Compression program using Huffman-code"
               label="File Compression (Desktop)"
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
+              techs={[<SiCplusplus size={40} color="#e63946" />]}
               pathSource="https://github.com/abdel-elsayed/FileCompression"
               pathLink=""
               pathSand=""
@@ -101,12 +103,13 @@ function Cards() {
               vidSrc="https://www.youtube.com/embed/RYkkgoIA2D4"
               text="Full-stack Social-Media Web Application using MERNG stack"
               label="Enviromania (Web)"
-              tech1="fab fa-node"
-              tech2="fab fa-react"
-              tech3=""
-              tech4="https://img.icons8.com/ios-filled/50/000000/redux.png"
-              tech5="https://img.icons8.com/color/48/000000/mongodb.png"
-              tech6={graphqlLogo}
+              techs={[
+                <SiGraphql size={40} color="#e63946" />,
+                <SiNodedotjs size={40} color="#e63946" />,
+                <SiReact size={40} color="#e63946" />,
+                <SiRedux size={40} color="#e63946" />,
+                <SiMongodb size={40} color="#e63946" />,
+              ]}
               pathSource="https://github.com/abdel-elsayed/Cap-Stone-TTP-frontend"
               pathLink="https://enviromania.netlify.app/"
               pathSand=""
@@ -121,12 +124,7 @@ function Cards() {
               src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
               text="Implementation of data structures and Algorithms in C++"
               label="Data structures (Desktop)"
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
+              techs={[<SiCplusplus size={40} color="#e63946" />]}
               pathSource="https://github.com/abdel-elsayed/Data-Structures"
               pathLink=""
               pathSand=""
@@ -139,12 +137,11 @@ function Cards() {
               text="Full-stack recipe website using React.js, Redux, Node.js and Easybase"
               label="Amira's kitchen (Web)"
               inProgress={true}
-              tech1="fab fa-node"
-              tech2="fab fa-react"
-              tech3=""
-              tech4="https://img.icons8.com/ios-filled/50/000000/redux.png"
-              tech5=""
-              tech6="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/yyubzwgfnriz10qbj4a6"
+              techs={[
+                <SiNodedotjs size={40} color="#e63946" />,
+                <SiReact size={40} color="#e63946" />,
+                <SiRedux size={40} color="#e63946" />,
+              ]}
               pathSource="https://github.com/abdel-elsayed/amiras-kitchen"
               pathLink="https://amira-elsayed-kitchen.netlify.app/Home"
               pathSand=""
@@ -159,12 +156,7 @@ function Cards() {
               src="https://raw.githubusercontent.com/abdel-elsayed/GarageCars/master/lane1.png"
               text="C++ simulation of cars arrivals/departures in 2-lanes parking garage."
               label="Garage Cars (Desktop)"
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              tech5=""
-              tech6=""
+              techs={[<SiCplusplus size={40} color="#e63946" />]}
               pathSource="https://github.com/abdel-elsayed/GarageCars"
               pathLink=""
               pathSand=""
@@ -176,12 +168,12 @@ function Cards() {
               src="https://raw.githubusercontent.com/abdel-elsayed/Lemonade-E-Commerce-Website/master/images/bagsPageDemo.png"
               text="Full-Stack PHP E-commerce website"
               label="Lemonade E-commerce (Web)"
-              tech1="fab fa-php"
-              tech2="fab fa-html5"
-              tech3="fab fa-css3-alt"
-              tech4="https://img.icons8.com/nolan/64/heroku.png"
-              tech5=""
-              tech6=""
+              techs={[
+                <SiPhp size={40} color="#e63946" />,
+                <SiHtml5 size={40} color="#e63946" />,
+                <SiCss3 size={40} color="#e63946" />,
+                <SiHeroku size={40} color="#e63946" />,
+              ]}
               pathSource="https://github.com/abdel-elsayed/Lemonade-E-Commerce-Website"
               pathLink="https://lemonade-ecomm.herokuapp.com/php/FrontPage.php"
               pathSand=""
@@ -197,12 +189,11 @@ function Cards() {
               text="Full-Stack clone of Amazon using fire-base and React.js"
               label="Amazon clone (Web)"
               inProgress={true}
-              tech1=""
-              tech2=""
-              tech3=""
-              tech4="https://img.icons8.com/color/48/000000/firebase.png"
-              tech5="https://img.icons8.com/nolan/64/stripe.png"
-              tech6="https://img.icons8.com/plasticine/100/000000/react.png"
+              techs={[
+                <SiFirebase size={40} color="#e63946" />,
+                <SiStripe size={40} color="#e63946" />,
+                <SiReact size={40} color="#e63946" />,
+              ]}
               pathSource="https://github.com/abdel-elsayed/amazon-clone"
               pathLink="https://challenge-e57b8.firebaseapp.com/"
               pathSand=""
@@ -210,59 +201,6 @@ function Cards() {
             />{" "}
           </ul>
         </ScrollAnimation>
-        {/* <ScrollAnimation animateIn="bounceInRight">
-          <ul className="cards__items">
-            <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/React-Redux-Bank/master/HOME.png"
-              text="Web Application using React/redux"
-              label="Bank of React/Redux"
-              tech1="fab fa-js-square"
-              tech2="fab fa-react"
-              tech3="fab fa-node"
-              tech4="https://img.icons8.com/ios-filled/50/000000/redux.png"
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/React-Redux-Bank"
-              pathLink="https://abdels-bank-of-react-redux.netlify.app/"
-              pathSand="https://codesandbox.io/s/objective-dream-dzj9k"
-              tags={["web-development", "react/redux"]}
-            />
-            <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/React-Pomodoro-Clock/master/pomodoro-clock.png"
-              text="ReactJS web Application for Talent Tech Pipeline residency"
-              label="Pomodoro Clock"
-              tech1="fab fa-js-square"
-              tech2="fab fa-react"
-              tech3="fab fa-node"
-              tech4=""
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/React-Pomodoro-Clock"
-              pathLink="https://abdels-react-pomodoro-timer.netlify.app"
-              pathSand=""
-              tags={["web-development", "react"]}
-            />
-          </ul>
-        </ScrollAnimation> */}
-        {/* <ScrollAnimation animateIn="bounceInRight">
-          <ul className="cards__items">
-            <CardItem
-              src="https://raw.githubusercontent.com/abdel-elsayed/React-Giphy-App/master/Screen%20Shot%202021-01-14%20at%209.39.33%20PM.png"
-              text="Group project Web application using ReactJS"
-              label="Giphy App"
-              tech1="fab fa-js-square"
-              tech2="fab fa-react"
-              tech3=""
-              tech4=""
-              tech5=""
-              tech6=""
-              pathSource="https://github.com/abdel-elsayed/React-Giphy-App"
-              pathLink=""
-              pathSand="https://codesandbox.io/s/wonderful-cookies-2woz0?file=/src/components/App.js"
-              tags={["web-development", "react", "API"]}
-            />{" "}
-          </ul>
-        </ScrollAnimation> */}
       </div>
       <div style={{ textAlign: "center", marginBottom: "2rem" }}>
         <a

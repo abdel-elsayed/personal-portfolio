@@ -1,12 +1,8 @@
 import React from "react";
 import "../App.css";
 import TitleMessage from "../components/TitleMessage";
-//import illust from "../assets/mirage-644.png";
-// import illust1 from "../assets/Illust1.png";
-// import illust3 from "../assets/illust3.gif";
 import "../styling/Home.css";
 import Lottie from "react-lottie";
-// import animationData from "../assets/animationData.json"
 import animationData1 from "../assets/boyWithPlant1.json";
 
 function Home() {
