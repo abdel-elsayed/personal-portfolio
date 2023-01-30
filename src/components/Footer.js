@@ -44,7 +44,7 @@ function Footer() {
         <a
           rel="noopener noreferrer"
           className="social-icon-link"
-          href="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1663952357/Abdelrahman_Elsayed-2_iat0mw.png"
+          href="https://drive.google.com/file/d/16tCz0IvO8DlLGt7PZdcKdu17-i7RRHsR/view?usp=share_link"
           target="_blank"
           aria-label="resume"
         >
