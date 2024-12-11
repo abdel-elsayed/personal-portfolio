@@ -108,7 +108,7 @@ h2 {
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 15px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #fff;
   background-color: #e63946;
   box-sizing: border-box;
@@ -262,7 +262,7 @@ h2 {
 }
 
 .tags {
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 

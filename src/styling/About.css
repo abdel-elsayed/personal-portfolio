@@ -48,7 +48,7 @@
   line-height: 25px;
   font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Gill Sans MT",
     "Trebuchet MS" !important;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 18px;
 }
 .image {

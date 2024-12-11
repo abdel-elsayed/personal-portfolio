@@ -5,6 +5,8 @@ import linkedInLogo from "../assets/linkedin.png";
 import rocket from "../assets/rocket.png";
 import resumeLogo from "../assets/resume.png";
 import "../styling/TitleMessage.css";
+import pdf from "../assets/AbdelrahmanElsayed_resume_DEC24.pdf"
+
 
 const TitleMessage = () => (
   <div className="titleMessage">
@@ -45,7 +47,7 @@ const TitleMessage = () => (
         </a>
         <a
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/16tCz0IvO8DlLGt7PZdcKdu17-i7RRHsR/view?usp=share_link"
+          href={pdf}
           className="logo-image"
           target="_blank"
         >

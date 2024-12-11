@@ -39,7 +39,7 @@ function About() {
             <p className="header-text">iOS Mobile Developer</p>
             <p className="second-header-text">
               <strong>
-                Based in NYC,
+                Based in Chicago,
                 <br /> I develop software and stuff like that.
               </strong>
             </p>
@@ -65,12 +65,57 @@ function About() {
           <Experience
             title="Lowe's Companies, Inc"
             subtitle="iOS Software Development Intern"
-            first="Participated in Agile/Scrum rituals and ceremonies as an effective team member"
-            second="Utilize and learn proxy tools to analyze Adobe and Firebase network calls"
-            third="Modified, developed and tested analytics functionality for the iOS consumer application"
-            fourth="Shadow and assist senior software engineers perform End-to-End testing across the iOS application"
+            first="Transformed iOS App Performance by converting legacy UIKit modules to SwiftUI,
+             achieving 22% reduction in app load times and significantly improving memory efficiency. in Agile/Scrum rituals and ceremonies as an effective team member."
+            second="Drove Revenue and User Engagement through Google Ad Manager integration, generating 10% increase in mobile revenue and implementing an advanced
+             in-house analytics SDK that boosted user engagement metrics by 15%.Utilize and learn proxy tools to analyze Adobe and Firebase network calls."
+            third="Optimized Cross-Functional Collaboration by streamlining communication across Android, Backend, Business, 
+            and Design teams, reducing feature delivery time by 30% and creating comprehensive documentation.odified, developed and tested analytics functionality for the iOS consumer application."
+            fourth="Maintained Exceptional Code Quality with a 95% pass rate in peer code 
+            reviews and zero critical production bugs for six consecutive months.Shadow and assist senior software engineers perform End-to-End testing across the iOS application."
+            fifth="Demonstrated a consistent approach of solving technical challenges with meaningful, 
+            impactful solutions while maintaining a commitment to continuous improvement and innovation."
             date="June 2021 - Present"
+            url= "https://www.lowes.com"
             company_logo="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1663953596/Lowes_logo_pms_280_dyodgu.png"
+          />
+          <hr style={{ borderTop: "3px double #8c8b8b" }} />
+          <Experience
+            title="Digital Tectonics, LLC "
+            subtitle="Software Engineer Contractor"
+            first="Rebuilt core app architecture using SwiftUI, optimizing rendering and leveraging modern iOS design patterns."
+            second="Engineered a comprehensive component library that standardized our UI toolkit across multiple projects."
+            third="Implemented robust unit testing strategy, leveraging dependency injection and protocol-oriented programming to ensure code reliability."
+            fourth="Maintained direct client relationships, translating complex technical requirements into clean, effective software solutions"
+            date="October 2022 - June 2024"
+            company_logo="https://digital-tectonics.com/images/logo.png"
+            url="https://digital-tectonics.com/#"
+          />
+          <hr style={{ borderTop: "3px double #8c8b8b" }} />
+          <Experience
+            title="CSI-CSTEP program"
+            subtitle="College Assistant/Tutor"
+            first="Created study plans and lessons for intermediate programming and discrete math for students in need"
+            second="Worked with college-level students inside and outside classroom in understanding different computer science and math concepts. "
+            third="led and taught an introduction to programming class for high-school students on weekends in CSI. "
+            date="October 2019 - August 2020"
+            company_logo="https://www.csi.cuny.edu/themes/custom/cuny_csi/logo.svg"
+          />
+        </div>
+      </ScrollAnimation>
+
+      <ScrollAnimation animateIn="bounceInLeft" animateOnce>
+        <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Education</h2>
+        <div className="activities-container">
+
+        <Experience
+            title="College of Staten Island - City University of New York"
+            subtitle="Software Development Student"
+            first="Bachelor of Computer Science - Software Engineering"
+            second="Marketing Minor "
+            date="January 2021 - June 2021"
+            url="https://www.csi.cuny.edu"
+            company_logo="https://www.csi.cuny.edu/themes/custom/cuny_csi/logo.svg"
           />
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
           <Experience
@@ -82,30 +127,9 @@ function About() {
        then rendering images on a custom-built website using React.js"
             third="Applied industry best practices for design, implementation, and deployment of architectural patterns such as Model-View-Controller,
        and version control with Git/GitHub"
-            date="January 2021 - Present"
+            date="January 2021 - June 2021"
             company_logo="https://www.nypl.org/sites/default/files/ttp_logo_2.png"
           />
-          <hr style={{ borderTop: "3px double #8c8b8b" }} />
-          <Experience
-            title="CSI-CSTEP program"
-            subtitle="College Assistant/Tutor"
-            first="Created study plans and lessons for intermediate programming and discrete math for students in need"
-            second="Worked with college-level students inside and outside classroom in understanding different computer science and math concepts. "
-            third="led and taught an introduction to programming class for high-school students on weekends in CSI. "
-            date="October 2019 - August 2020"
-            company_logo="http://www1.cuny.edu/sites/asap/wp-content/uploads/sites/8/2020/02/csi_logo.jpg"
-          />
-          {/* <hr style={{ borderTop: "3px double #8c8b8b" }} />
-          <Experience
-            title="Payless Shoe-source"
-            subtitle="Assistant Manager, Key Holder"
-            first="Promoted in the first year from a sales associate to a store assistant manager for showing exceptional
-      performance and leadership skills through fast-paced environment"
-            second="Managed and coordinated all retail store operations"
-            third="Motivated sales employees to improve morale, performance and sales revenue."
-            date="June 2016 - August 2019"
-            company_logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/Payless_Logo.png"
-          /> */}
         </div>
       </ScrollAnimation>
 

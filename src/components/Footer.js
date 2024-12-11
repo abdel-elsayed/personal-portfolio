@@ -1,5 +1,6 @@
 import React from "react";
 import "../styling/Footer.css";
+import pdf from "../assets/AbdelrahmanElsayed_resume_DEC24.pdf"
 
 function Footer() {
   return (
@@ -44,7 +45,7 @@ function Footer() {
         <a
           rel="noopener noreferrer"
           className="social-icon-link"
-          href="https://drive.google.com/file/d/16tCz0IvO8DlLGt7PZdcKdu17-i7RRHsR/view?usp=share_link"
+          href={pdf}
           target="_blank"
           aria-label="resume"
         >

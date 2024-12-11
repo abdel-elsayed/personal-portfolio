@@ -15,21 +15,21 @@ function Experience(props) {
               marginLeft: "auto",
             }}
           >
-            <button>
+       <a href={props.url} target="_blank">  <button>
               {" "}
               <img
                 alt="logo"
                 className="company-logo"
                 src={props.company_logo}
               />
-            </button>
+            </button></a>
           </li>
         </ul>
-
         <li>- {props.first} </li>
         <li>- {props.second} </li>
-        <li>- {props.third} </li>
+        {props.third ? <li>- {props.third} </li> : null}
         {props.fourth ? <li>- {props.fourth} </li> : null}
+        {props.fifth ? <li>- {props.fifth} </li> : null}
         <li className="experience-date">{props.date}</li>
       </ul>
     </div>
