@@ -10,6 +10,7 @@ function Experience(props) {
             <strong>{props.title}</strong>
             <p className="experience-subtitle">{props.subtitle}</p>
           </li>
+          { props.company_logo ? 
           <li
             style={{
               marginLeft: "auto",
@@ -24,6 +25,8 @@ function Experience(props) {
               />
             </button></a>
           </li>
+          : null
+          }
         </ul>
         <li>- {props.first} </li>
         <li>- {props.second} </li>

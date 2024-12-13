@@ -22,6 +22,9 @@
 .experience-item > li {
   padding-top: 1.2rem;
   letter-spacing: 2.5px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1rem;
 }
 .experience-item > li > img {
   width: 24px !important;
@@ -48,6 +51,10 @@
   margin-top: 1rem;
   text-align: center;
   color: #be837d;
+}
+
+.experience-item > li.experience-date {
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {

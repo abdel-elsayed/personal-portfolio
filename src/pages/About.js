@@ -135,89 +135,28 @@ function About() {
 
       <ScrollAnimation animateIn="bounceInLeft" animateOnce>
         <h2 style={{ marginTop: "7rem", color: "#1d3557" }}>Activities</h2>
-        <div className="activities-container">
-          <ul className="experience-item">
-            <li
-              style={{
-                marginBottom: "0rem",
-                textAlign: "center",
-                textDecoration: "underline",
-              }}
-            >
-              <strong>Python Workshop Series</strong>
-            </li>
-            <p
-              style={{
-                marginTop: "0.2rem",
-                textAlign: "center",
-                textDecoration: "underline",
-                color: "#457B9D",
-              }}
-            >
-              Introduction to Python and Artificial Intelligence.
-            </p>
-            <li>
-              - Co-hosted a beginner friendly workshop introducing web scrapping
-              using Python.{" "}
-            </li>
-            <li>- Introduced Glitch and basic python synatx.</li>
-            <li>
-              - Introduced data cleaning techniques using regular expressions to
-              improve a data set retrieved from scrapping Twitter.
-            </li>
-            <li>- Sponsored by Major League hacking, CUNY2X, and TTP.</li>
-
-            <li
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#be837d",
-              }}
-            >
-              March 2021
-            </li>
-          </ul>
+        <div className="experience-container">
+          <Experience
+            title="Python Workshop Series"
+            subtitle="Introduction to Python and Artificial Intelligence."
+            first="Co-hosted a beginner friendly workshop introducing web scrapping
+              using Python."
+            second="Introduced Glitch and basic python synatx."
+            third="Introduced data cleaning techniques using regular expressions to
+              improve a data set retrieved from scrapping Twitter."
+            fourth="Sponsored by Major League hacking, CUNY2X, and TTP."
+            date="March 2021"/>
           <hr style={{ borderTop: "3px double #8c8b8b" }} />
-          <ul className="experience-item">
-            <li
-              style={{
-                marginBottom: "0rem",
-                textAlign: "center",
-                textDecoration: "underline",
-              }}
-            >
-              <strong>Git into GitHub Workshop</strong>
-            </li>
-            <p
-              style={{
-                marginTop: "0.2rem",
-                textAlign: "center",
-                textDecoration: "underline",
-                color: "#457B9D",
-              }}
-            >
-              Beginner's introduction to Git and Github
-            </p>
-            <li>
-              - Hosted and facilitated a beginner's Git/Github workshop at
-              College of Staten Island, computer science department.{" "}
-            </li>
-            <li>
-              - Covered basic and critical skills for developers: version
-              control, Git, GitHub, terminology and best practices
-            </li>
-            <li>- Sponsored by Major League hacking and CUNY2X</li>
-
-            <li
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#be837d",
-              }}
-            >
-              February 2021
-            </li>
-          </ul>
+          <Experience
+            title="Git into GitHub Workshop"
+            subtitle="Beginner's introduction to Git and Github"
+            first="Hosted and facilitated a beginner's Git/Github workshop at
+              College of Staten Island, computer science department."
+            second="Covered basic and critical skills for developers: version
+              control, Git, GitHub, terminology and best practices. "
+            third="Sponsored by Major League hacking and CUNY2X"
+            date="February 2021"
+          />
         </div>
       </ScrollAnimation>
 
