@@ -53,7 +53,10 @@ function Footer() {
         </a>
       </div>
       <div style={{ paddingTop: "2rem" }}>
-        <small className="website-rights">A_ELSAYED © 2021</small>
+        <p className="website-rights">Designed, developed, deployed and maintained by yours truly using React.
+        <br />
+        A_ELSAYED © 2021
+        </p>
       </div>
     </div>
   );

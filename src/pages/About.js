@@ -64,7 +64,7 @@ function About() {
         <div className="experience-container">
           <Experience
             title="Lowe's Companies, Inc"
-            subtitle="iOS Software Development Intern"
+            subtitle="iOS Software Engineer"
             first="Transformed iOS App Performance by converting legacy UIKit modules to SwiftUI,
              achieving 22% reduction in app load times and significantly improving memory efficiency. in Agile/Scrum rituals and ceremonies as an effective team member."
             second="Drove Revenue and User Engagement through Google Ad Manager integration, generating 10% increase in mobile revenue and implementing an advanced

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../styling/About.css";
 import "../styling/Cards.css";
 import "../styling/CertificateCard.css";
+import eCornellCertificate from "../assets/eCornell Certificate.png"
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Certificates() {
@@ -10,7 +11,7 @@ function Certificates() {
   });
   return (
     <div>
-      <ScrollAnimation animateIn="bounceInDown" animateOnce>
+      <ScrollAnimation animateIn="bounceInRight" animateOnce>
         <ul className="certificate_cards_items">
           <li>
             <div className="certificate_card">
@@ -47,6 +48,30 @@ function Certificates() {
                     className="cards__item__img"
                     alt="Project"
                     src="https://res.cloudinary.com/dnkxmjpxy/image/upload/v1650066992/Screen_Shot_2022-04-15_at_7.56.24_PM_j3zh67.png"
+                  />
+                </a>
+              </figure>
+            </div>
+          </li>
+        </ul>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="bounceInRight" animateOnce>
+        <ul className="certificate_cards_items">
+          <li>
+            <div className="certificate_card">
+              <figure
+                className="cards__item__pic-wrap"
+                data-category="E-Cornell System Design Certificate"
+              >
+                <a
+                  rel="noopener noreferrer"
+                  href="https://mycredentials.ecornell.cornell.edu/credential/KofmNVbHng"
+                  target="_blank"
+                >
+                  <img
+                    className="cards__item__img"
+                    alt="Project"
+                    src={eCornellCertificate}
                   />
                 </a>
               </figure>
